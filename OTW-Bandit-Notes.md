@@ -5,6 +5,7 @@
 |-------|--------|
 | Level 0 → 1 | ✅ Complete |
 | Level 1 → 2 | ✅ Complete |
+| Level 2 → 3 | ✅ Complete |
 
 ---
 
@@ -39,5 +40,18 @@ as a filename rather than a flag.
 
 ---
 
+## Level 2 → 3
+**Objective:** Read a file named "--spaces in this filename--"
+
+**Solution:**
+Quotation marks are necessary around the filename due to the spaces
+and double dashes in the filename.
+
+**Commands Used:** 
+- `cat ./"--spaces in the filename--"`
+
+**Key Concept:"** Files with spaces in the name require quotation marks 
+in order to be acurately processed.
+ 
 *Passwords stored locally only — not published out of respect 
 for other players working through these challenges.*
