@@ -6,7 +6,7 @@
 | Level 0 → 1 | ✅ Complete |
 | Level 1 → 2 | ✅ Complete |
 | Level 2 → 3 | ✅ Complete |
-
+| Level 3 → 4 | ✅ Complete |
 ---
 
 ## Level 0 → 1
@@ -50,8 +50,27 @@ and double dashes in the filename.
 **Commands Used:** 
 - `cat ./"--spaces in the filename--"`
 
-**Key Concept:"** Files with spaces in the name require quotation marks 
-in order to be acurately processed.
- 
+**Key Concept:** Files with spaces in the name require quotation 
+marks in order to be acurately processed.
+
+---
+
+## Level 3 → 4
+**Objective:** Find and read a hidden file
+
+**Solution:**
+Change into the proper directory, list all files, locate the hidden
+file, then use the `cat` command to read it.
+
+**Comands Used:**
+- `cd inhere`
+- 'ls -la'
+- `cat ...Hiding-From-You`
+
+**Key Concept:** the -la flag on the ls comand tells linux to list 
+the contents of the directory in long form - including hidden files.
+
+---
+
 *Passwords stored locally only — not published out of respect 
 for other players working through these challenges.*
