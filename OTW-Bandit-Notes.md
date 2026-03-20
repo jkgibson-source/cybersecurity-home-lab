@@ -7,6 +7,7 @@
 | Level 1 → 2 | ✅ Complete |
 | Level 2 → 3 | ✅ Complete |
 | Level 3 → 4 | ✅ Complete |
+| Level 4 → 5 | ✅ Complete |
 ---
 
 ## Level 0 → 1
@@ -67,8 +68,32 @@ file, then use the `cat` command to read it.
 - 'ls -la'
 - `cat ...Hiding-From-You`
 
-**Key Concept:** The -la flag on the ls comand tells linux to list 
+**Key Concept:** The -la flag on the ls command tells linux to list 
 the contents of the directory in long form - including hidden files.
+
+---
+
+## Level 4 → 5
+**Objective:** Procure the human readable data hidden amongst ten 
+files.
+
+**Solution:**
+Once in the proper directory, use cat to cycle thorugh the files 
+using the up arrow keyboard shortcut.
+
+**Alternative Solution:**
+`file ./-file0*` — identifies file types across multiple 
+files simultaneously using wildcard
+
+**Commands Used:**
+- `cd inhere`
+- `ls -la`
+- `cat ./-file0x`
+- `file ./-file0*`
+
+**Key Concept:** Human-readable = `ASCII text`, `file` command identifies
+file types, wildcard `*` runs commands against multiple files
+simultaneously
 
 ---
 
