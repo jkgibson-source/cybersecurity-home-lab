@@ -67,7 +67,7 @@ file, then use the `cat` command to read it.
 - 'ls -la'
 - `cat ...Hiding-From-You`
 
-**Key Concept:** the -la flag on the ls comand tells linux to list 
+**Key Concept:** The -la flag on the ls comand tells linux to list 
 the contents of the directory in long form - including hidden files.
 
 ---
