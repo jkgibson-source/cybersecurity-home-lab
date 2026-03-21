@@ -8,6 +8,7 @@
 | Level 2 → 3 | ✅ Complete |
 | Level 3 → 4 | ✅ Complete |
 | Level 4 → 5 | ✅ Complete |
+| Level 5 → 6 | ✅ Complete |
 ---
 
 ## Level 0 → 1
@@ -94,6 +95,28 @@ files simultaneously using wildcard
 **Key Concept:** Human-readable = `ASCII text`, `file` command identifies
 file types, wildcard `*` runs commands against multiple files
 simultaneously
+
+---
+
+## Level 5 → 6
+**Objective:** Locate and read a file with specific properties mixed in 
+amongst multiple diretories.
+
+**Solution:**
+Use the find command with the appropriate combined flags to locate the 
+file, then use the cat command to read it.
+
+**Commands Used:**
+- `cd inhere`
+- `ls -la`
+- `find . -size 1033c -readable ! -executable`
+- `cat ./maybehere07/.file2`
+
+**Key Concept:** 
+- find with multiple conditions chainsfilters together
+- the c suffix in `size 1033c` means bytes
+- in `! -executable`, the `!` negates the flag `-executable`
+- `.` searches the current directory recursively 
 
 ---
 
