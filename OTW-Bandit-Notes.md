@@ -3,16 +3,17 @@
 ## Progress Tracker
 | Level | Status |
 |-------|--------|
-| Level 0 → 1 | ✅ Complete |
-| Level 1 → 2 | ✅ Complete |
-| Level 2 → 3 | ✅ Complete |
-| Level 3 → 4 | ✅ Complete |
-| Level 4 → 5 | ✅ Complete |
-| Level 5 → 6 | ✅ Complete |
-| Level 6 → 7 | ✅ Complete |
-| Level 7 → 8 | ✅ Complete |
-| Level 8 → 9 | ✅ Complete |
-| Level 9 → 10| ✅ Complete |
+| Level  0 → 1  | ✅ Complete |
+| Level  1 → 2  | ✅ Complete |
+| Level  2 → 3  | ✅ Complete |
+| Level  3 → 4  | ✅ Complete |
+| Level  4 → 5  | ✅ Complete |
+| Level  5 → 6  | ✅ Complete |
+| Level  6 → 7  | ✅ Complete |
+| Level  7 → 8  | ✅ Complete |
+| Level  8 → 9  | ✅ Complete |
+| Level  9 → 10 | ✅ Complete |
+| Level 10 → 11 | ✅ Complete |
 
 ---
 
@@ -191,6 +192,20 @@ Use `sort` and `uniq` to find the password, piping the output from
 - using `strings` to decipher human-readable text
 - using `grep` to locate a pattern
 - piping output from one command into another
+
+---
+
+## Level 10 → 11
+**Objective:** Decode the password from base64.
+
+**Solution:** Use the `-d` flag with `base64` to read the file.
+
+**Commands Used:**
+- `base64 -d data.txt`
+
+**Key Concept:**
+- `base64` can be used from the command line to encode or decode a string
+-  the `-d` flag tells the command to decode
 
 ---
 
