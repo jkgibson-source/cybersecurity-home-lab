@@ -10,6 +10,7 @@
 | Level 4 → 5 | ✅ Complete |
 | Level 5 → 6 | ✅ Complete |
 | Level 6 → 7 | ✅ Complete |
+| Level 7 → 8 | ✅ Complete |
 ---
 
 ## Level 0 → 1
@@ -130,13 +131,28 @@ Use the `find` with the appropriate combined flags to locate the
 file, then use `cat` to read it, silencing any permission denied errors.
 
 **Commands Used:**
-- find / -size 33c -user bandit7 -group bandit6 2>/dev/null
-- cat /file/path/bandit7.password
+- `find / -size 33c -user bandit7 -group bandit6 2>/dev/null`
+- `cat /file/path/bandit7.password`
 
 **Key Concept:**
 - using the `-user` and `-group` flags
 - searching from root using `/`
 - stream redirection using `2>/dev/null`
+
+---
+
+## Level 7 → 8
+**Objective:** Locate the password in a very long list of data.
+
+**Solution:**
+Use `grep` to pinpoint the given target phrase and password.
+
+**Commands Used:**
+- `cat data.txt`
+- `grep -w 'millionth' data.txt`
+
+**Key Concept:**
+- using `grep`
 
 ---
 
