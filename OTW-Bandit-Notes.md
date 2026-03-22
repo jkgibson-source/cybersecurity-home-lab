@@ -11,6 +11,8 @@
 | Level 5 → 6 | ✅ Complete |
 | Level 6 → 7 | ✅ Complete |
 | Level 7 → 8 | ✅ Complete |
+| Level 8 → 9 | ✅ Complete |
+
 ---
 
 ## Level 0 → 1
@@ -142,7 +144,8 @@ file, then use `cat` to read it, silencing any permission denied errors.
 ---
 
 ## Level 7 → 8
-**Objective:** Locate the password in a very long list of data.
+**Objective:** Locate the target phrase and password in a very 
+long list of data.
 
 **Solution:**
 Use `grep` to pinpoint the given target phrase and password.
@@ -152,7 +155,25 @@ Use `grep` to pinpoint the given target phrase and password.
 - `grep -w 'millionth' data.txt`
 
 **Key Concept:**
-- using `grep`
+- using `grep` to locate a specific pattern or string.
+
+---
+
+## Level 8 → 9
+**Objective:** Locate the password as the only non-duplicate line
+in a long data set.
+
+**Solution:**
+Use `sort` and `uniq` to find the password, piping the output from
+`sort` into `uniq` with the appropriate flag.
+
+**Commands Used:**
+- `sort data.txt | uniq -u`
+
+**Key Concept:**
+- pipng output from one command into another
+- using `sort` to compare data in a file
+- using `uniq -u` to filter and print unique data. 
 
 ---
 
