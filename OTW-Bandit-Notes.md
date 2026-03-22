@@ -12,6 +12,7 @@
 | Level 6 → 7 | ✅ Complete |
 | Level 7 → 8 | ✅ Complete |
 | Level 8 → 9 | ✅ Complete |
+| Level 9 → 10| ✅ Complete |
 
 ---
 
@@ -70,7 +71,7 @@ file, then use the `cat` command to read it.
 
 **Comands Used:**
 - `cd inhere`
-- 'ls -la'
+- `ls -la`
 - `cat ...Hiding-From-You`
 
 **Key Concept:** The -la flag on the ls command tells linux to list 
@@ -174,6 +175,22 @@ Use `sort` and `uniq` to find the password, piping the output from
 - pipng output from one command into another
 - using `sort` to compare data in a file
 - using `uniq -u` to filter and print unique data. 
+
+---
+
+## Level 9 → 10
+**Objective:** Locate the human-readable password from the data set.
+
+**Solution:** Pipe the output from `strings` into `grep` to locate the
+"==" pattern and find the password.
+
+**Commands Used:**
+- `strings data.txt | grep "=="`
+
+**Key Concept:**
+- using `strings` to decipher human-readable text
+- using `grep` to locate a pattern
+- piping output from one command into another
 
 ---
 
