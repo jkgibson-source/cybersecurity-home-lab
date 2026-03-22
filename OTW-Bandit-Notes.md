@@ -9,6 +9,7 @@
 | Level 3 → 4 | ✅ Complete |
 | Level 4 → 5 | ✅ Complete |
 | Level 5 → 6 | ✅ Complete |
+| Level 6 → 7 | ✅ Complete |
 ---
 
 ## Level 0 → 1
@@ -103,20 +104,39 @@ simultaneously
 amongst multiple diretories.
 
 **Solution:**
-Use the find command with the appropriate combined flags to locate the 
-file, then use the cat command to read it.
+Use `find` with the appropriate combined flags to locate the file, then 
+use `cat` to read it.
 
 **Commands Used:**
 - `cd inhere`
 - `ls -la`
 - `find . -size 1033c -readable ! -executable`
-- `cat ./maybehere07/.file2`
+- `cat ./filepath/.file2`
 
 **Key Concept:** 
-- find with multiple conditions chainsfilters together
+- `find` with multiple conditions chains filters together
 - the c suffix in `size 1033c` means bytes
 - in `! -executable`, the `!` negates the flag `-executable`
 - `.` searches the current directory recursively 
+
+---
+
+## Level 6 → 7
+**Objective:** Locate the password, located somewhere on the server, 
+using the given specifications.
+
+**Solution:**
+Use the `find` with the appropriate combined flags to locate the 
+file, then use `cat` to read it, silencing any permission denied errors.
+
+**Commands Used:**
+- find / -size 33c -user bandit7 -group bandit6 2>/dev/null
+- cat /file/path/bandit7.password
+
+**Key Concept:**
+- using the `-user` and `-group` flags
+- searching from root using `/`
+- stream redirection using `2>/dev/null`
 
 ---
 
