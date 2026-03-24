@@ -17,6 +17,7 @@
 | Level 11 → 12 | ✅ Complete |
 | Level 12 → 13 | ✅ Complete |
 | Level 13 → 14 | ✅ Complete |
+| Level 14 → 15 | ✅ Complete |
 
 ---
 
@@ -264,6 +265,21 @@ to enter Level 14.
 
 **Key Concept:**
 - Key-based SSH authentication.
+
+---
+
+## Level 14 → 15
+**Objective:** Submit the last level's password via localhost at post 30000
+to proceed.
+
+**Solution:** Use netcat to submit the level 14's password and gain access to
+level 16.
+
+**Commands used:** 
+- `nc locahost 30000`
+
+**Key Concept:** 
+- Using `netcat`
 
 ---
 *Passwords stored locally only — not published out of respect 
