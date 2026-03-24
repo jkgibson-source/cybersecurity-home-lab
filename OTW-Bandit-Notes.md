@@ -272,7 +272,7 @@ to enter Level 14.
 **Objective:** Submit the last level's password via localhost at post 30000
 to proceed.
 
-**Solution:** Use netcat to submit the level 14's password and gain access to
+**Solution:** Use netcat to submit the level 14 password and gain access to
 level 16.
 
 **Commands used:** 
