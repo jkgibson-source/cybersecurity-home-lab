@@ -16,6 +16,7 @@
 | Level 10 → 11 | ✅ Complete |
 | Level 11 → 12 | ✅ Complete |
 | Level 12 → 13 | ✅ Complete |
+| Level 13 → 14 | ✅ Complete |
 
 ---
 
@@ -226,6 +227,28 @@ however, it isn't installed am I am unable to install it.
 ---
 
 ## Level 12 → 13
+**Objective:** Find the password in a hexdump that has been compressed 
+using several different formats.
+
+**Solution:** Decompress the file until it is in ASCII format, then use
+cat to read the password.
+
+**Commands Used:** 
+- `TMPDIR=$(mktemp -d /tmp/bandit12/XXXX)`
+- `cp ~/data.txt $TMPDIR`
+- `cd $TMPDIR`
+- `xxd -r data.txt > data.bin`
+- `file data.bin`
+- `gunzip data*.gz`, `bunzip2 data*.bz2`, `tar xf data*.tar`
+- `file data*`
+
+**Key Concept:** 
+- Utilizing `gzip`, `bzip2`, and `tar` to decompress a file
+- Using `file` to discern file types.
+
+---
+
+## Level 13 → 14
 **Objective:** Get in to the next level using a private ssh key instead of
 a password.
 
@@ -238,6 +261,9 @@ to enter Level 14.
 - `nano bandit14.key`
 - `chmod 400 ~/bandit4.key`
 - `ssh -i ~/bandit14.key bandit14@bandit.labs.overthewire.org -p 2220`
+
+**Key Concept:**
+- Key-based SSH authentication.
 
 ---
 *Passwords stored locally only — not published out of respect 
