@@ -14,6 +14,8 @@
 | Level  8 → 9  | ✅ Complete |
 | Level  9 → 10 | ✅ Complete |
 | Level 10 → 11 | ✅ Complete |
+| Level 11 → 12 | ✅ Complete |
+| Level 12 → 13 | ✅ Complete |
 
 ---
 
@@ -209,5 +211,34 @@ Use `sort` and `uniq` to find the password, piping the output from
 
 ---
 
+## Level 11 → 12
+**Objective:** Decode the password from Rot13.
+
+**Solution:** Use the `tr` command to "translate" the string.
+
+**Commands used:**
+- cat data.tx | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+**Key Concept:**
+- `rot13` is actually also a command that will directly decode the sting,
+however, it isn't installed am I am unable to install it.
+
+---
+
+## Level 12 → 13
+**Objective:** Get in to the next level using a private ssh key instead of
+a password.
+
+**Solution:** Make a copy of the ssh key to my local system called
+`banditkey14.key`. Modify the permissons to user read only, then use `ssh`
+to enter Level 14.
+
+**Commands used:**
+- `cat sshkey.private`
+- `nano bandit14.key`
+- `chmod 400 ~/bandit4.key`
+- `ssh -i ~/bandit14.key bandit14@bandit.labs.overthewire.org -p 2220`
+
+---
 *Passwords stored locally only — not published out of respect 
 for other players working through these challenges.*
