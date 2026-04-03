@@ -18,6 +18,7 @@
 | Level 12 → 13 | ✅ Complete |
 | Level 13 → 14 | ✅ Complete |
 | Level 14 → 15 | ✅ Complete |
+| Level 15 → 16 | ✅ Complete |
 
 ---
 
@@ -218,7 +219,7 @@ Use `sort` and `uniq` to find the password, piping the output from
 
 **Solution:** Use the `tr` command to "translate" the string.
 
-**Commands used:**
+**Commands Used:**
 - cat data.tx | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 **Key Concept:**
@@ -257,7 +258,7 @@ a password.
 `banditkey14.key`. Modify the permissons to user read only, then use `ssh`
 to enter Level 14.
 
-**Commands used:**
+**Commands Used:**
 - `cat sshkey.private`
 - `nano bandit14.key`
 - `chmod 400 ~/bandit4.key`
@@ -275,11 +276,23 @@ to proceed.
 **Solution:** Use netcat to submit the level 14 password and gain access to
 level 16.
 
-**Commands used:** 
-- `nc locahost 30000`
+**Commands Used:** 
+- `nc localhost 30000`
 
 **Key Concept:** 
 - Using `netcat`
+
+---
+
+## Level 15 → 16
+**Ojective:** Submit the current level passsword to port 30001 on localhost 
+using SSL/TLS
+
+**Solution:** Connect to localhost port 30001 using `openssl`
+
+**Commands Used:** `openssl s_client -connect localhost:30001`
+
+**Key Concept:** Using `openssl` to connect to localhost for encryption.
 
 ---
 *Passwords stored locally only — not published out of respect 
