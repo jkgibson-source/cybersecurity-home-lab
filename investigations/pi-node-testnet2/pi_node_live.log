@@ -1,0 +1,91 @@
+
+Starting Pi Node
+
+mode: persistent
+network: testnet2 (Pi Testnet)
+postgres: config directory exists, skipping copy
+supervisor: config directory exists, skipping copy
+stellar-core: config directory exists, skipping copy
+horizon: config directory exists, skipping copy
+postgres: already initialized
+chown-core: ok
+core: already initialized
+horizon: already initialized
+Waiting for postgres to be available...
+postgres: up
+2026-04-02 15:23:54 [MIGRATION] [INFO] ==========================================
+2026-04-02 15:23:54 [MIGRATION] [INFO] Starting Migration Runner
+2026-04-02 15:23:54 [MIGRATION] [INFO] ==========================================
+2026-04-02 15:23:54 [MIGRATION] [INFO] Migrations directory: /migrations
+2026-04-02 15:23:54 [MIGRATION] [INFO] Status file: /opt/stellar/migration_status
+2026-04-02 15:23:54 [MIGRATION] [INFO] Migration status file exists: /opt/stellar/migration_status
+2026-04-02 15:23:55 [MIGRATION] [INFO] Backup directory created: /opt/stellar/migration_backups/20260402_152355
+2026-04-02 15:23:55 [MIGRATION] [SKIP] Migration already executed: 001_captive_core_upgrade.sh
+2026-04-02 15:23:55 [MIGRATION] [INFO] Executing migration: 002_deprecated_sql_ledger_state.sh
+2026-04-02 15:23:55 [002] [INFO]  Starting migration: Add DEPRECATED_SQL_LEDGER_STATE=false
+2026-04-02 15:23:55 [002] [INFO]  Backup created: /opt/stellar/migration_backups/20260402_152355/stellar-core.cfg.20260402_152355
+2026-04-02 15:23:55 [002] [OK]    DEPRECATED_SQL_LEDGER_STATE=false added after DATABASE line
+2026-04-02 15:23:55 [002] [INFO]  Verifying migration...
+2026-04-02 15:23:55 [002] [OK]    Verification passed
+2026-04-02 15:23:55 [002] [OK]    Migration completed successfully
+2026-04-02 15:23:55 [MIGRATION] [OK]   Marked migration as executed: 002_deprecated_sql_ledger_state.sh
+2026-04-02 15:23:55 [MIGRATION] [OK]   Migration completed successfully: 002_deprecated_sql_ledger_state.sh
+2026-04-02 15:23:55 [MIGRATION] [INFO] ==========================================
+2026-04-02 15:23:55 [MIGRATION] [INFO] Migration Runner Summary
+2026-04-02 15:23:55 [MIGRATION] [INFO] ==========================================
+2026-04-02 15:23:55 [MIGRATION] [INFO] Total: 2  Executed: 1  Skipped: 1
+2026-04-02 15:23:55 [MIGRATION] [OK]   All migrations completed successfully
+migrations: completed
+postgres: down
+starting supervisor
+2026-04-02 15:23:56,392 INFO Set uid to user 0 succeeded
+2026-04-02 15:23:56,399 INFO RPC interface 'supervisor' initialized
+2026-04-02 15:23:56,400 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2026-04-02 15:23:56,400 INFO supervisord started with pid 1
+2026-04-02 15:23:57,413 INFO spawned: 'postgresql' with pid 108
+2026-04-02 15:23:57,415 INFO spawned: 'stellar-core' with pid 109
+2026-04-02 15:23:59,131 INFO success: postgresql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-02 15:23:59,132 INFO success: stellar-core entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-02 15:28:40,652 INFO exited: stellar-core (terminated by SIGABRT; not expected)
+2026-04-02 15:28:40,663 INFO spawned: 'stellar-core' with pid 639
+2026-04-02 15:28:42,442 INFO success: stellar-core entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+Starting Pi Node
+
+mode: persistent
+network: testnet2 (Pi Testnet)
+postgres: config directory exists, skipping copy
+supervisor: config directory exists, skipping copy
+stellar-core: config directory exists, skipping copy
+horizon: config directory exists, skipping copy
+postgres: already initialized
+chown-core: ok
+core: already initialized
+horizon: already initialized
+Waiting for postgres to be available...
+postgres: up
+2026-04-02 18:38:31 [MIGRATION] [INFO] ==========================================
+2026-04-02 18:38:31 [MIGRATION] [INFO] Starting Migration Runner
+2026-04-02 18:38:31 [MIGRATION] [INFO] ==========================================
+2026-04-02 18:38:31 [MIGRATION] [INFO] Migrations directory: /migrations
+2026-04-02 18:38:31 [MIGRATION] [INFO] Status file: /opt/stellar/migration_status
+2026-04-02 18:38:31 [MIGRATION] [INFO] Migration status file exists: /opt/stellar/migration_status
+2026-04-02 18:38:31 [MIGRATION] [INFO] Backup directory created: /opt/stellar/migration_backups/20260402_183831
+2026-04-02 18:38:32 [MIGRATION] [SKIP] Migration already executed: 001_captive_core_upgrade.sh
+2026-04-02 18:38:32 [MIGRATION] [SKIP] Migration already executed: 002_deprecated_sql_ledger_state.sh
+2026-04-02 18:38:32 [MIGRATION] [INFO] ==========================================
+2026-04-02 18:38:32 [MIGRATION] [INFO] Migration Runner Summary
+2026-04-02 18:38:32 [MIGRATION] [INFO] ==========================================
+2026-04-02 18:38:32 [MIGRATION] [INFO] Total: 2  Executed: 0  Skipped: 2
+2026-04-02 18:38:32 [MIGRATION] [OK]   All migrations completed successfully
+migrations: completed
+postgres: down
+starting supervisor
+2026-04-02 18:38:33,270 INFO Set uid to user 0 succeeded
+2026-04-02 18:38:33,591 INFO RPC interface 'supervisor' initialized
+2026-04-02 18:38:33,592 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2026-04-02 18:38:33,593 INFO supervisord started with pid 1
+2026-04-02 18:38:34,633 INFO spawned: 'postgresql' with pid 78
+2026-04-02 18:38:34,641 INFO spawned: 'stellar-core' with pid 79
+2026-04-02 18:38:35,834 INFO success: postgresql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-02 18:38:35,834 INFO success: stellar-core entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
