@@ -70,8 +70,8 @@ This distinction is critical on a SIEM machine where log integrity and host stab
 **[HIGH] Plaintext credentials in environment variables**
 
 ```
-POSTGRES_PASSWORD=beqgUo4kl2iBL6NuYi7s
-NODE_PRIVATE_KEY=SA5QH2VWQI4VNZ3SOLPRYIU5PNSAFAEGVTEZIWFPLHF2OPAJYRCB4PCF
+POSTGRES_PASSWORD=xxxxxxxxxxxxxxxx.      
+NODE_PRIVATE_xxxxxxxxxxxxxxxxxxxxx
 ```
 
 The `NODE_PRIVATE_KEY` is a Stellar blockchain private key stored in plaintext — visible to anyone with Docker access on the host. Secrets must never be passed as plaintext environment variables. Docker Secrets or a secrets manager (e.g., HashiCorp Vault) should be used instead.
