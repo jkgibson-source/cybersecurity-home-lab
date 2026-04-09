@@ -105,6 +105,14 @@ enthusiast transitioning into the cybersecurity field.
 
 ---
 
+## Security Investigations
+
+| Investigation | Date | Summary |
+|---|---|---|
+| [Pi Network Node — testnet2](investigations/pi-node-testnet2/pi_node_security_analysis.md) | April 2026 | Pre-decommission analysis of a third-party blockchain Docker node running on the SIEM host. 2 High / 6 Medium findings. |
+
+---
+
 ## 📁 Projects
 
 ### 1. Home Lab Build
