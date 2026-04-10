@@ -9,6 +9,21 @@
 
 ---
 
+## 📋 Executive Summary (BLUF)
+
+A structured security analysis was conducted on the Pi Network `testnet2` Docker container prior to its decommission from the core SIEM host (`EagleEye11`). The analysis identified multiple **High-Severity** risks that necessitated immediate removal to preserve the integrity of the lab's monitoring infrastructure.
+
+### Key Findings
+* **Credential Exposure:** Hardcoded Stellar blockchain private keys and database passwords were found in plaintext within environment variables.
+* **Management Vulnerability:** The `supervisord` management interface was running with zero authentication, a critical flaw surfaced via Splunk alerting.
+* **Network Aggression:** The node performed aggressive peer-discovery, contacting **4,989 unique external IPs** within a 5-minute window, bypassing DNS-based controls via hardcoded IP routing.
+* **Insecure Isolation:** Port bindings were exposed to the entire LAN (`0.0.0.0`), and read-write bind mounts granted the container access to the host’s home directory.
+
+### Conclusion
+While the observed traffic is consistent with blockchain "peer-sweep" behavior, the lack of resource limits, use of an EOL base image, and plaintext secret storage represent an unacceptable trust boundary. The container has been decommissioned, and a remediation timeline has been established to harden the remaining lab assets.
+
+---
+
 ## Table of Contents
 
 1. [Objective](#objective)
