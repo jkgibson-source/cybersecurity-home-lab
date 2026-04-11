@@ -7,6 +7,15 @@ enthusiast transitioning into the cybersecurity field.
 
 ---
 
+## 🔬 Home Lab Architecture
+
+![Lab Diagram](assets/lab-diagram.svg)
+
+This lab simulates a segmented enterprise environment for purple team operations, 
+including attack simulation (Kali), detection engineering (Splunk), and OSINT workflows.
+
+---
+
 ## 🖥️ Lab Infrastructure
 
 ### Machines
