@@ -1,0 +1,380 @@
+<svg viewBox="0 0 960 1080" xmlns="http://www.w3.org/2000/svg" font-family="'Georgia', serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fc"/>
+      <stop offset="100%" stop-color="#eef1f7"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="100%" stop-color="#243560"/>
+    </linearGradient>
+    <linearGradient id="ispGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8edf8"/>
+      <stop offset="100%" stop-color="#d8e0f0"/>
+    </linearGradient>
+    <linearGradient id="gwGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f0ff"/>
+      <stop offset="100%" stop-color="#c8e4f8"/>
+    </linearGradient>
+    <linearGradient id="attackGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff0ee"/>
+      <stop offset="100%" stop-color="#ffe4e0"/>
+    </linearGradient>
+    <linearGradient id="mgmtGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#edfff4"/>
+      <stop offset="100%" stop-color="#d8f5e8"/>
+    </linearGradient>
+    <linearGradient id="targetGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffbee"/>
+      <stop offset="100%" stop-color="#fff0cc"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00000018"/>
+    </filter>
+    <filter id="cardshadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000012"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#3355aa"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#cc3322"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#227744"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#996600"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.06" stroke="#334488" stroke-width="0.5">
+    <line x1="0" y1="60" x2="960" y2="60"/>
+    <line x1="0" y1="120" x2="960" y2="120"/>
+    <line x1="0" y1="180" x2="960" y2="180"/>
+    <line x1="0" y1="240" x2="960" y2="240"/>
+    <line x1="0" y1="300" x2="960" y2="300"/>
+    <line x1="0" y1="360" x2="960" y2="360"/>
+    <line x1="0" y1="420" x2="960" y2="420"/>
+    <line x1="0" y1="480" x2="960" y2="480"/>
+    <line x1="0" y1="540" x2="960" y2="540"/>
+    <line x1="0" y1="600" x2="960" y2="600"/>
+    <line x1="0" y1="660" x2="960" y2="660"/>
+    <line x1="0" y1="720" x2="960" y2="720"/>
+    <line x1="0" y1="780" x2="960" y2="780"/>
+    <line x1="0" y1="840" x2="960" y2="840"/>
+    <line x1="0" y1="900" x2="960" y2="900"/>
+    <line x1="0" y1="960" x2="960" y2="960"/>
+    <line x1="60" y1="0" x2="60" y2="1080"/>
+    <line x1="120" y1="0" x2="120" y2="1080"/>
+    <line x1="180" y1="0" x2="180" y2="1080"/>
+    <line x1="240" y1="0" x2="240" y2="1080"/>
+    <line x1="300" y1="0" x2="300" y2="1080"/>
+    <line x1="360" y1="0" x2="360" y2="1080"/>
+    <line x1="420" y1="0" x2="420" y2="1080"/>
+    <line x1="480" y1="0" x2="480" y2="1080"/>
+    <line x1="540" y1="0" x2="540" y2="1080"/>
+    <line x1="600" y1="0" x2="600" y2="1080"/>
+    <line x1="660" y1="0" x2="660" y2="1080"/>
+    <line x1="720" y1="0" x2="720" y2="1080"/>
+    <line x1="780" y1="0" x2="780" y2="1080"/>
+    <line x1="840" y1="0" x2="840" y2="1080"/>
+    <line x1="900" y1="0" x2="900" y2="1080"/>
+  </g>
+
+  <!-- ═══ HEADER ═══ -->
+  <rect x="0" y="0" width="960" height="62" fill="url(#headerGrad)"/>
+  <text x="480" y="26" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="15" font-weight="bold" letter-spacing="3">THE BURROW — CYBERSECURITY HOME LAB</text>
+  <text x="480" y="46" text-anchor="middle" fill="#8899cc" font-family="'Courier New', monospace" font-size="9" letter-spacing="4">NETWORK ARCHITECTURE  ·  MIAMI, FL  ·  APRIL 2026</text>
+  <line x1="40" y1="54" x2="920" y2="54" stroke="#ffffff" stroke-width="0.5" opacity="0.15"/>
+  <text x="480" y="59" text-anchor="middle" fill="#5566aa" font-family="'Courier New', monospace" font-size="7" letter-spacing="3">github.com/jkgibson-source/cybersecurity-home-lab</text>
+
+  <!-- ═══ INTERNET ═══ -->
+  <text x="480" y="88" text-anchor="middle" fill="#889" font-family="'Courier New', monospace" font-size="9" letter-spacing="4">▲  INTERNET  ▲</text>
+  <line x1="200" y1="84" x2="360" y2="84" stroke="#aab" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="600" y1="84" x2="760" y2="84" stroke="#aab" stroke-width="0.8" stroke-dasharray="4,3"/>
+
+  <!-- ═══ AT&T GATEWAY ═══ -->
+  <rect x="270" y="96" width="420" height="88" rx="6" fill="url(#ispGrad)" stroke="#3355aa" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="270" y="96" width="420" height="6" rx="3" fill="#3355aa"/>
+  <text x="480" y="118" text-anchor="middle" fill="#1a2744" font-family="Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1">AT&amp;T FIBER GATEWAY</text>
+  <text x="480" y="134" text-anchor="middle" fill="#334488" font-family="'Courier New', monospace" font-size="9" letter-spacing="1">Netgear BGW320-505  ·  192.168.1.254</text>
+  <rect x="290" y="142" width="180" height="28" rx="3" fill="#ffffff" stroke="#aabbd4" stroke-width="0.8"/>
+  <text x="380" y="155" text-anchor="middle" fill="#334488" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1">AT&amp;T WiFi  192.168.1.0/24</text>
+  <text x="380" y="166" text-anchor="middle" fill="#556699" font-family="'Courier New', monospace" font-size="7" letter-spacing="1">household devices</text>
+  <rect x="490" y="142" width="180" height="28" rx="3" fill="#ddeeff" stroke="#3355aa" stroke-width="0.8"/>
+  <text x="580" y="155" text-anchor="middle" fill="#1a3366" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold" letter-spacing="1">IP PASSTHROUGH → RS100</text>
+  <text x="580" y="166" text-anchor="middle" fill="#334488" font-family="'Courier New', monospace" font-size="7" letter-spacing="1">WAN IP: 108.67.207.227</text>
+
+  <!-- Connection: Gateway to RS100 -->
+  <line x1="480" y1="184" x2="480" y2="220" stroke="#3355aa" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <rect x="430" y="194" width="100" height="14" rx="2" fill="#eef2fb" stroke="#aabbd4" stroke-width="0.5"/>
+  <text x="480" y="204" text-anchor="middle" fill="#3355aa" font-family="'Courier New', monospace" font-size="7" letter-spacing="1">IP PASSTHROUGH</text>
+
+  <!-- ═══ RS100 NIGHTHAWK GATEWAY ═══ -->
+  <rect x="220" y="222" width="520" height="96" rx="6" fill="url(#gwGrad)" stroke="#0077cc" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="220" y="222" width="520" height="6" rx="3" fill="#0077cc"/>
+  <!-- Status indicator -->
+  <circle cx="242" cy="252" r="5" fill="#22cc66"/>
+  <text x="253" y="256" fill="#227744" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1">ONLINE</text>
+  <text x="480" y="248" text-anchor="middle" fill="#003366" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing="2">RS100 NIGHTHAWK  ·  THE BURROW GATEWAY</text>
+  <text x="480" y="264" text-anchor="middle" fill="#0055aa" font-family="'Courier New', monospace" font-size="8.5" letter-spacing="1">Netgear BE3600  ·  WiFi 7  ·  Quad-core 2GHz  ·  1GB RAM  ·  WPA3</text>
+  <line x1="240" y1="272" x2="720" y2="272" stroke="#0077cc" stroke-width="0.5" opacity="0.3"/>
+  <rect x="240" y="278" width="140" height="26" rx="3" fill="#ffffff" stroke="#aacce8" stroke-width="0.8"/>
+  <text x="310" y="290" text-anchor="middle" fill="#003366" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">WAN: 108.67.207.227</text>
+  <text x="310" y="300" text-anchor="middle" fill="#336699" font-family="'Courier New', monospace" font-size="7">Public AT&amp;T IP</text>
+  <rect x="395" y="278" width="140" height="26" rx="3" fill="#ffffff" stroke="#aacce8" stroke-width="0.8"/>
+  <text x="465" y="290" text-anchor="middle" fill="#003366" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">LAN: 10.0.0.0/24</text>
+  <text x="465" y="300" text-anchor="middle" fill="#336699" font-family="'Courier New', monospace" font-size="7">Burrow Network</text>
+  <rect x="550" y="278" width="148" height="26" rx="3" fill="#ffffff" stroke="#aacce8" stroke-width="0.8"/>
+  <text x="624" y="290" text-anchor="middle" fill="#003366" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">Nighthawk WiFi SSID</text>
+  <text x="624" y="300" text-anchor="middle" fill="#336699" font-family="'Courier New', monospace" font-size="7">Primary Burrow Access</text>
+
+  <!-- Branch lines from RS100 -->
+  <line x1="340" y1="318" x2="175" y2="390" stroke="#cc3322" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowRed)"/>
+  <line x1="480" y1="318" x2="480" y2="388" stroke="#227744" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+  <line x1="620" y1="318" x2="785" y2="390" stroke="#996600" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowAmber)"/>
+
+  <!-- Subnet labels -->
+  <rect x="60" y="350" width="115" height="22" rx="3" fill="#fff0ee" stroke="#cc3322" stroke-width="0.8"/>
+  <text x="117" y="364" text-anchor="middle" fill="#cc3322" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold" letter-spacing="1">10.10.10.0/24</text>
+
+  <rect x="415" y="356" width="130" height="22" rx="3" fill="#edfff4" stroke="#227744" stroke-width="0.8"/>
+  <text x="480" y="370" text-anchor="middle" fill="#227744" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold" letter-spacing="1">10.0.0.0/24</text>
+
+  <rect x="785" y="350" width="115" height="22" rx="3" fill="#fffbee" stroke="#996600" stroke-width="0.8"/>
+  <text x="843" y="364" text-anchor="middle" fill="#996600" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold" letter-spacing="1">10.10.20.0/24</text>
+
+  <!-- ═══ ATTACK SEGMENT ═══ -->
+  <rect x="30" y="392" width="290" height="320" rx="6" fill="url(#attackGrad)" stroke="#cc3322" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="30" y="392" width="290" height="6" rx="3" fill="#cc3322"/>
+  <text x="175" y="414" text-anchor="middle" fill="#8b1a10" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="2">ATTACK SEGMENT</text>
+  <text x="175" y="428" text-anchor="middle" fill="#cc3322" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1">Offensive Operations</text>
+  <line x1="48" y1="434" x2="302" y2="434" stroke="#cc3322" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- SkorpiOm card -->
+  <rect x="46" y="442" width="258" height="88" rx="4" fill="#ffffff" stroke="#e8b0aa" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="46" y="442" width="258" height="4" rx="2" fill="#cc3322" opacity="0.7"/>
+  <circle cx="64" cy="462" r="4" fill="#22cc66"/>
+  <text x="80" y="458" fill="#8b1a10" font-family="Georgia, serif" font-size="10" font-weight="bold">SK0RPi0M</text>
+  <text x="80" y="470" fill="#aa2211" font-family="'Courier New', monospace" font-size="7.5">MacBook Pro A1286  ·  Kali Linux (Xfce)</text>
+  <line x1="58" y1="476" x2="292" y2="476" stroke="#e8b0aa" stroke-width="0.5"/>
+  <text x="58" y="488" fill="#663322" font-family="'Courier New', monospace" font-size="7">IP: 10.0.0.x  ·  PRIMARY ATTACK MACHINE</text>
+  <text x="58" y="500" fill="#774433" font-family="'Courier New', monospace" font-size="7">Metasploit · Nmap · Burp Suite · Wireshark</text>
+  <text x="58" y="512" fill="#774433" font-family="'Courier New', monospace" font-size="7">Splunk UF → EagleEye11  ·  Tailscale mesh</text>
+  <text x="58" y="524" fill="#885544" font-family="'Courier New', monospace" font-size="7">Ollama: llama3.2 · qwen · gemma3 · tinyllama</text>
+
+  <!-- Metasploitable card -->
+  <rect x="46" y="540" width="258" height="68" rx="4" fill="#ffffff" stroke="#e8b0aa" stroke-width="1" stroke-dasharray="4,2" filter="url(#cardshadow)"/>
+  <rect x="46" y="540" width="258" height="4" rx="2" fill="#cc3322" opacity="0.4"/>
+  <text x="64" y="558" fill="#8b1a10" font-family="Georgia, serif" font-size="9.5" font-weight="bold">Metasploitable 2</text>
+  <text x="64" y="570" fill="#663322" font-family="'Courier New', monospace" font-size="7.5">VirtualBox VM on SkorpiOm</text>
+  <text x="64" y="582" fill="#774433" font-family="'Courier New', monospace" font-size="7">TARGET VM  ·  Intentionally vulnerable</text>
+  <text x="64" y="594" fill="#885544" font-family="'Courier New', monospace" font-size="7">CVE-2010-2075 exploited ✓  (UnrealIRCd)</text>
+  <text x="64" y="606" fill="#885544" font-family="'Courier New', monospace" font-size="7">/etc/shadow harvested ✓</text>
+
+  <!-- SkorpiOm7 card -->
+  <rect x="46" y="618" width="258" height="60" rx="4" fill="#ffffff" stroke="#e8b0aa" stroke-width="1" stroke-dasharray="4,2" filter="url(#cardshadow)"/>
+  <rect x="46" y="618" width="258" height="4" rx="2" fill="#cc3322" opacity="0.3"/>
+  <text x="64" y="636" fill="#8b1a10" font-family="Georgia, serif" font-size="9.5" font-weight="bold">SK0RPi0M7</text>
+  <text x="64" y="648" fill="#663322" font-family="'Courier New', monospace" font-size="7.5">iPhone 7  ·  iOS 13.5.1</text>
+  <text x="64" y="660" fill="#774433" font-family="'Courier New', monospace" font-size="7">Jailbreak research  ·  checkra1n/checkm8</text>
+  <text x="64" y="672" fill="#885544" font-family="'Courier New', monospace" font-size="7">Mobile forensics platform</text>
+
+  <!-- Ollama strip -->
+  <rect x="46" y="688" width="258" height="16" rx="3" fill="#fdf0ee" stroke="#e8b0aa" stroke-width="0.8"/>
+  <text x="175" y="699" text-anchor="middle" fill="#aa3322" font-family="'Courier New', monospace" font-size="7" letter-spacing="1">Gemini CLI  ·  OpenCode v1.3.3  ·  Twingate</text>
+
+  <!-- ═══ MANAGEMENT SEGMENT ═══ -->
+  <rect x="335" y="392" width="290" height="430" rx="6" fill="url(#mgmtGrad)" stroke="#227744" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="335" y="392" width="290" height="6" rx="3" fill="#227744"/>
+  <text x="480" y="414" text-anchor="middle" fill="#0d4422" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="2">MANAGEMENT SEGMENT</text>
+  <text x="480" y="428" text-anchor="middle" fill="#227744" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1">SIEM · Administration · Daily Operations</text>
+  <line x1="352" y1="434" x2="607" y2="434" stroke="#227744" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- EagleEye11 card -->
+  <rect x="350" y="442" width="260" height="100" rx="4" fill="#ffffff" stroke="#a8d8b8" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="350" y="442" width="260" height="4" rx="2" fill="#227744" opacity="0.8"/>
+  <circle cx="368" cy="462" r="4" fill="#22cc66"/>
+  <text x="384" y="458" fill="#0d4422" font-family="Georgia, serif" font-size="10" font-weight="bold">EAGL3EY311</text>
+  <text x="384" y="470" fill="#227744" font-family="'Courier New', monospace" font-size="7.5">Mac mini M1  ·  macOS  ·  10.0.0.10</text>
+  <line x1="362" y1="476" x2="598" y2="476" stroke="#a8d8b8" stroke-width="0.5"/>
+  <text x="362" y="488" fill="#1a5533" font-family="'Courier New', monospace" font-size="7">SPLUNK SIEM 10.2.1  ·  Primary SOC node</text>
+  <text x="362" y="500" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">Docker: Twingate connector · Pi Network node*</text>
+  <text x="362" y="512" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">Ollama: llama3.2 · gemma3 · deepseek-r1</text>
+  <text x="362" y="524" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">Tailscale · Gemini CLI · OpenCode</text>
+  <text x="362" y="536" fill="#33775544" font-family="'Courier New', monospace" font-size="6.5">*Pi Network node flagged — removal pending</text>
+
+  <!-- Jynx13 card -->
+  <rect x="350" y="552" width="260" height="78" rx="4" fill="#ffffff" stroke="#a8d8b8" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="350" y="552" width="260" height="4" rx="2" fill="#227744" opacity="0.6"/>
+  <circle cx="368" cy="572" r="4" fill="#22cc66" opacity="0.8"/>
+  <text x="384" y="568" fill="#0d4422" font-family="Georgia, serif" font-size="10" font-weight="bold">JYNX13</text>
+  <text x="384" y="580" fill="#227744" font-family="'Courier New', monospace" font-size="7.5">MacBook Air 2017  ·  macOS Monterey 12.7.6</text>
+  <line x1="362" y1="586" x2="598" y2="586" stroke="#a8d8b8" stroke-width="0.5"/>
+  <text x="362" y="598" fill="#1a5533" font-family="'Courier New', monospace" font-size="7">OSINT + Travel  ·  Tailscale: 100.108.182.39</text>
+  <text x="362" y="610" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">theHarvester · Sherlock · nmap · exiftool</text>
+  <text x="362" y="622" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">Parrot OS USB (in progress)  ·  rEFInd</text>
+
+  <!-- Mobile row -->
+  <rect x="350" y="640" width="125" height="72" rx="4" fill="#ffffff" stroke="#a8d8b8" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="350" y="640" width="125" height="4" rx="2" fill="#227744" opacity="0.5"/>
+  <circle cx="368" cy="660" r="3.5" fill="#22cc66" opacity="0.9"/>
+  <text x="384" y="657" fill="#0d4422" font-family="Georgia, serif" font-size="9" font-weight="bold">S0LSK0RP_13</text>
+  <text x="362" y="669" fill="#336644" font-family="'Courier New', monospace" font-size="7">iPhone 13</text>
+  <text x="362" y="681" fill="#336644" font-family="'Courier New', monospace" font-size="7">Daily driver</text>
+  <text x="362" y="693" fill="#447755" font-family="'Courier New', monospace" font-size="7">Burrow Bubble*</text>
+  <text x="362" y="705" fill="#447755" font-family="'Courier New', monospace" font-size="7">Tailscale</text>
+
+  <rect x="485" y="640" width="125" height="72" rx="4" fill="#ffffff" stroke="#a8d8b8" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="485" y="640" width="125" height="4" rx="2" fill="#227744" opacity="0.5"/>
+  <circle cx="503" cy="660" r="3.5" fill="#22cc66" opacity="0.7"/>
+  <text x="519" y="657" fill="#0d4422" font-family="Georgia, serif" font-size="9" font-weight="bold">B1RDPAD</text>
+  <text x="497" y="669" fill="#336644" font-family="'Courier New', monospace" font-size="7">iPad mini 4</text>
+  <text x="497" y="681" fill="#336644" font-family="'Courier New', monospace" font-size="7">Research surface</text>
+  <text x="497" y="693" fill="#447755" font-family="'Courier New', monospace" font-size="7">Termius SSH</text>
+  <text x="497" y="705" fill="#447755" font-family="'Courier New', monospace" font-size="7">Splunk display</text>
+
+  <!-- SkorpiOm11 card -->
+  <rect x="350" y="722" width="260" height="60" rx="4" fill="#ffffff" stroke="#a8d8b8" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="350" y="722" width="260" height="4" rx="2" fill="#227744" opacity="0.4"/>
+  <circle cx="368" cy="742" r="3.5" fill="#aaddbb" opacity="0.8"/>
+  <text x="384" y="739" fill="#0d4422" font-family="Georgia, serif" font-size="9.5" font-weight="bold">SK0RPi0M11</text>
+  <text x="384" y="751" fill="#336644" font-family="'Courier New', monospace" font-size="7.5">iPhone 11 Pro  ·  Retired from cell service</text>
+  <line x1="362" y1="757" x2="598" y2="757" stroke="#a8d8b8" stroke-width="0.5"/>
+  <text x="362" y="769" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">OSINT burner  ·  Splunk ambient display</text>
+  <text x="362" y="779" fill="#2a6644" font-family="'Courier New', monospace" font-size="7">Ollama interface via Tailscale  ·  Termius</text>
+
+  <!-- ═══ TARGET SEGMENT ═══ -->
+  <rect x="640" y="392" width="290" height="320" rx="6" fill="url(#targetGrad)" stroke="#996600" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="640" y="392" width="290" height="6" rx="3" fill="#996600"/>
+  <text x="785" y="414" text-anchor="middle" fill="#5c3d00" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="2">TARGET SEGMENT</text>
+  <text x="785" y="428" text-anchor="middle" fill="#996600" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1">Pentest Targets · Forensic Samples</text>
+  <line x1="658" y1="434" x2="912" y2="434" stroke="#996600" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Krypton1t3 card -->
+  <rect x="656" y="442" width="258" height="100" rx="4" fill="#ffffff" stroke="#e8d490" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="656" y="442" width="258" height="4" rx="2" fill="#996600" opacity="0.8"/>
+  <circle cx="674" cy="462" r="4" fill="#ffcc00"/>
+  <text x="690" y="458" fill="#5c3d00" font-family="Georgia, serif" font-size="10" font-weight="bold">KRYPT0N1T3</text>
+  <text x="690" y="470" fill="#7a5200" font-family="'Courier New', monospace" font-size="7.5">MacBook Pro A1398  ·  macOS Big Sur 11.7.11</text>
+  <line x1="668" y1="476" x2="902" y2="476" stroke="#e8d490" stroke-width="0.5"/>
+  <text x="668" y="488" fill="#5c3d00" font-family="'Courier New', monospace" font-size="7">ACTIVE PENTEST TARGET  ·  Splunk UF v9.2.12</text>
+  <text x="668" y="500" fill="#7a5200" font-family="'Courier New', monospace" font-size="7">Attack surface: VNC :5900 · CUPS :631 · DAAP</text>
+  <text x="668" y="512" fill="#7a5200" font-family="'Courier New', monospace" font-size="7">Remote Mgmt (ARD) · Bluetooth Sharing</text>
+  <text x="668" y="524" fill="#886622" font-family="'Courier New', monospace" font-size="7">→ Ubuntu Studio 26.04 planned: April 18, 2026</text>
+  <text x="668" y="536" fill="#997733" font-family="'Courier New', monospace" font-size="6.5">Username: SuperSkorp_7</text>
+
+  <!-- Forensic samples card -->
+  <rect x="656" y="552" width="258" height="60" rx="4" fill="#ffffff" stroke="#e8d490" stroke-width="1" stroke-dasharray="4,2" filter="url(#cardshadow)"/>
+  <rect x="656" y="552" width="258" height="4" rx="2" fill="#996600" opacity="0.4"/>
+  <text x="674" y="570" fill="#5c3d00" font-family="Georgia, serif" font-size="9.5" font-weight="bold">Forensic Sample Devices</text>
+  <text x="674" y="582" fill="#7a5200" font-family="'Courier New', monospace" font-size="7.5">SK0RPi0M5  —  iPhone 5</text>
+  <text x="674" y="594" fill="#7a5200" font-family="'Courier New', monospace" font-size="7.5">B1RDP0D  —  iPod touch (6th gen)</text>
+  <text x="674" y="606" fill="#886622" font-family="'Courier New', monospace" font-size="7">Mobile forensics investigation subjects</text>
+
+  <!-- Peripheral assets card -->
+  <rect x="656" y="622" width="258" height="60" rx="4" fill="#ffffff" stroke="#e8d490" stroke-width="1" stroke-dasharray="4,2" filter="url(#cardshadow)"/>
+  <rect x="656" y="622" width="258" height="4" rx="2" fill="#996600" opacity="0.3"/>
+  <text x="674" y="640" fill="#5c3d00" font-family="Georgia, serif" font-size="9.5" font-weight="bold">Peripheral Assets</text>
+  <text x="674" y="652" fill="#7a5200" font-family="'Courier New', monospace" font-size="7.5">B1RDi3VISION  —  Apple TV HD</text>
+  <text x="674" y="664" fill="#7a5200" font-family="'Courier New', monospace" font-size="7.5">Apple Watch Series 3 &amp; 6  ·  Sony PS5</text>
+  <text x="674" y="676" fill="#886622" font-family="'Courier New', monospace" font-size="7">SK0RPi0M7  —  iPhone 7 (jailbreak research)</text>
+
+  <!-- Tailscale strip -->
+  <rect x="656" y="692" width="258" height="16" rx="3" fill="#fff8e0" stroke="#e8d490" stroke-width="0.8"/>
+  <text x="785" y="703" text-anchor="middle" fill="#886600" font-family="'Courier New', monospace" font-size="7" letter-spacing="1">TAILSCALE MESH  ·  100.x.x.x  ·  Twingate: jkgibsonlab</text>
+
+  <!-- ═══ PHASE 2 BANNER ═══ -->
+  <rect x="30" y="724" width="300" height="90" rx="6" fill="#f8f8ff" stroke="#aabbdd" stroke-width="1.5" stroke-dasharray="6,3" filter="url(#cardshadow)"/>
+  <text x="180" y="742" text-anchor="middle" fill="#334488" font-family="Georgia, serif" font-size="9" font-weight="bold" letter-spacing="1">PHASE 2  —  PLANNED</text>
+  <text x="180" y="756" text-anchor="middle" fill="#556699" font-family="'Courier New', monospace" font-size="7.5">DD-WRT VLAN Segmentation</text>
+  <line x1="48" y1="762" x2="312" y2="762" stroke="#aabbdd" stroke-width="0.5"/>
+  <text x="48" y="774" fill="#445577" font-family="'Courier New', monospace" font-size="7">Hardware: Netgear R7000 ($18) or R6700v3 ($20)</text>
+  <text x="48" y="786" fill="#445577" font-family="'Courier New', monospace" font-size="7">VLAN 10: Attack  ·  VLAN 20: Mgmt  ·  VLAN 30: Targets</text>
+  <text x="48" y="798" fill="#445577" font-family="'Courier New', monospace" font-size="7">Inter-VLAN firewall rules  ·  RS100 → dedicated AP</text>
+  <text x="48" y="810" fill="#667799" font-family="'Courier New', monospace" font-size="7">pfSense evaluation: Phase 3 (dedicated x86 hardware)</text>
+
+  <!-- ═══ LEGEND ═══ -->
+  <rect x="640" y="724" width="290" height="120" rx="6" fill="#ffffff" stroke="#ccccdd" stroke-width="1" filter="url(#cardshadow)"/>
+  <text x="785" y="742" text-anchor="middle" fill="#334455" font-family="Georgia, serif" font-size="9" font-weight="bold" letter-spacing="2">LEGEND</text>
+  <line x1="658" y1="748" x2="912" y2="748" stroke="#ccccdd" stroke-width="0.8"/>
+
+  <rect x="662" y="756" width="10" height="10" rx="2" fill="#cc3322" opacity="0.8"/>
+  <text x="678" y="766" fill="#334455" font-family="'Courier New', monospace" font-size="8">Attack / Offensive segment</text>
+
+  <rect x="662" y="774" width="10" height="10" rx="2" fill="#227744" opacity="0.8"/>
+  <text x="678" y="784" fill="#334455" font-family="'Courier New', monospace" font-size="8">Management / SIEM segment</text>
+
+  <rect x="662" y="792" width="10" height="10" rx="2" fill="#996600" opacity="0.8"/>
+  <text x="678" y="802" fill="#334455" font-family="'Courier New', monospace" font-size="8">Target / Forensics segment</text>
+
+  <rect x="662" y="810" width="10" height="10" rx="2" fill="#3355aa" opacity="0.8"/>
+  <text x="678" y="820" fill="#334455" font-family="'Courier New', monospace" font-size="8">ISP / External infrastructure</text>
+
+  <line x1="800" y1="761" x2="830" y2="761" stroke="#888" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <text x="836" y="765" fill="#556677" font-family="'Courier New', monospace" font-size="8">Planned / pending</text>
+
+  <circle cx="805" cy="779" r="4" fill="#22cc66"/>
+  <text x="814" y="783" fill="#334455" font-family="'Courier New', monospace" font-size="8">Active / online</text>
+
+  <circle cx="805" cy="797" r="4" fill="#ccddcc" stroke="#aabbaa" stroke-width="0.8"/>
+  <text x="814" y="801" fill="#556677" font-family="'Courier New', monospace" font-size="8">Inactive / pending</text>
+
+  <!-- ═══ CERTIFICATIONS / SKILLS ═══ -->
+  <rect x="30" y="826" width="900" height="68" rx="6" fill="#ffffff" stroke="#ccccdd" stroke-width="1" filter="url(#cardshadow)"/>
+  <rect x="30" y="826" width="900" height="4" rx="3" fill="#1a2744" opacity="0.7"/>
+  <text x="480" y="844" text-anchor="middle" fill="#1a2744" font-family="Georgia, serif" font-size="9" font-weight="bold" letter-spacing="2">CERTIFICATIONS &amp; LEARNING PATH</text>
+  <line x1="48" y1="850" x2="912" y2="850" stroke="#ccccdd" stroke-width="0.5"/>
+
+  <!-- Certs row -->
+  <rect x="48" y="856" width="130" height="28" rx="3" fill="#eef2fb" stroke="#aabbdd" stroke-width="0.8"/>
+  <text x="113" y="868" text-anchor="middle" fill="#1a2744" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">ISC2 CC  ✓</text>
+  <text x="113" y="880" text-anchor="middle" fill="#334488" font-family="'Courier New', monospace" font-size="7">Certified Complete</text>
+
+  <rect x="188" y="856" width="168" height="28" rx="3" fill="#eef2fb" stroke="#aabbdd" stroke-width="0.8"/>
+  <text x="272" y="868" text-anchor="middle" fill="#1a2744" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">Google Cybersecurity  ✓</text>
+  <text x="272" y="880" text-anchor="middle" fill="#334488" font-family="'Courier New', monospace" font-size="7">Professional Certificate</text>
+
+  <rect x="366" y="856" width="148" height="28" rx="3" fill="#fff8e0" stroke="#ddcc88" stroke-width="0.8"/>
+  <text x="440" y="868" text-anchor="middle" fill="#5c3d00" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">CompTIA Security+</text>
+  <text x="440" y="880" text-anchor="middle" fill="#886600" font-family="'Courier New', monospace" font-size="7">In Progress</text>
+
+  <rect x="524" y="856" width="148" height="28" rx="3" fill="#fff8e0" stroke="#ddcc88" stroke-width="0.8"/>
+  <text x="598" y="868" text-anchor="middle" fill="#5c3d00" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">Splunk Core Certified</text>
+  <text x="598" y="880" text-anchor="middle" fill="#886600" font-family="'Courier New', monospace" font-size="7">In Progress</text>
+
+  <rect x="682" y="856" width="228" height="28" rx="3" fill="#edfff4" stroke="#a8d8b8" stroke-width="0.8"/>
+  <text x="796" y="868" text-anchor="middle" fill="#0d4422" font-family="'Courier New', monospace" font-size="7.5" font-weight="bold">PortSwigger · HTB · OverTheWire · CS50P</text>
+  <text x="796" y="880" text-anchor="middle" fill="#227744" font-family="'Courier New', monospace" font-size="7">Active self-study platforms</text>
+
+  <!-- ═══ FOOTER ═══ -->
+  <rect x="0" y="906" width="960" height="174" fill="#f0f2f8"/>  
+  <line x1="0" y1="906" x2="960" y2="906" stroke="#ccccdd" stroke-width="1"/>
+
+  <!-- Burrow Bubble note -->
+  <rect x="30" y="918" width="440" height="50" rx="4" fill="#ffffff" stroke="#aabbcc" stroke-width="0.8"/>
+  <text x="250" y="933" text-anchor="middle" fill="#334455" font-family="Georgia, serif" font-size="8.5" font-weight="bold">* BURROW BUBBLE  —  Travel Isolation Mode</text>
+  <text x="250" y="947" text-anchor="middle" fill="#556677" font-family="'Courier New', monospace" font-size="7.5">SolSkorp_13 Personal Hotspot  ·  172.20.10.0/24</text>
+  <text x="250" y="959" text-anchor="middle" fill="#667788" font-family="'Courier New', monospace" font-size="7">Activated when operating away from home lab (travel, field work)</text>
+
+  <!-- Splunk note -->
+  <rect x="490" y="918" width="440" height="50" rx="4" fill="#ffffff" stroke="#aabbcc" stroke-width="0.8"/>
+  <text x="710" y="933" text-anchor="middle" fill="#334455" font-family="Georgia, serif" font-size="8.5" font-weight="bold">SPLUNK FORWARDING ARCHITECTURE</text>
+  <text x="710" y="947" text-anchor="middle" fill="#556677" font-family="'Courier New', monospace" font-size="7.5">SkorpiOm → EagleEye11:9997  ·  Krypton1t3 → EagleEye11:9997</text>
+  <text x="710" y="959" text-anchor="middle" fill="#667788" font-family="'Courier New', monospace" font-size="7">Custom dashboard: "SkorpiOm Security Monitor"  ·  index=main</text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="976" width="960" height="104" fill="#1a2744"/>
+  <line x1="40" y1="988" x2="920" y2="988" stroke="#ffffff" stroke-width="0.3" opacity="0.2"/>
+  <text x="480" y="1004" text-anchor="middle" fill="#8899cc" font-family="Georgia, serif" font-size="9" letter-spacing="2">JAMES GIBSON  ·  CYBERSECURITY HOME LAB</text>
+  <text x="480" y="1020" text-anchor="middle" fill="#556699" font-family="'Courier New', monospace" font-size="8" letter-spacing="1">github.com/jkgibson-source/cybersecurity-home-lab</text>
+  <text x="480" y="1036" text-anchor="middle" fill="#3d5080" font-family="'Courier New', monospace" font-size="7.5" letter-spacing="1">jk.gibson@gmail.com</text>
+  <line x1="40" y1="1046" x2="920" y2="1046" stroke="#ffffff" stroke-width="0.3" opacity="0.1"/>
+  <text x="480" y="1060" text-anchor="middle" fill="#2a3a5a" font-family="'Courier New', monospace" font-size="7" letter-spacing="3">SOC ANALYST TRAJECTORY  ·  MIAMI, FL  ·  APRIL 2026</text>
+  <text x="480" y="1073" text-anchor="middle" fill="#1e2d48" font-family="'Courier New', monospace" font-size="7" letter-spacing="2">ISC2 CC  ·  Google Cybersecurity  ·  Security+ (in progress)  ·  Splunk Core (in progress)</text>
+</svg>
