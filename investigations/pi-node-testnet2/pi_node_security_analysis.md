@@ -142,7 +142,7 @@ docker cp testnet2:/tmp/pi_node_inside.pcap ~/pi_node_capture.pcap
 - All outbound traffic targeting port `31402` (Stellar peer gossip)
 - Large volume of TCP Retransmissions — the node spray-connects to a full peer list; most peers are unreachable, generating repeated retransmit attempts
 
-![Wireshark — External Traffic Filter (33,570 of 45,500 packets, 73.8%)](images/wireshark_eternal_traffic_filter.png)
+![Wireshark — External Traffic Filter (33,570 of 45,500 packets, 73.8%)](images/wireshark_external_traffic_filter.png)
 *Wireshark display filter `ip.dst != 172.18.0.0/16` showing 33,570 external packets (73.8% of capture). Heavy TCP Retransmission volume consistent with aggressive peer sweep behavior.*
 
 ![Wireshark — Early TCP Peer Connections to Port 31402](images/wireshark_tcp_early_peers.png)
