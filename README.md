@@ -122,7 +122,7 @@ including attack simulation (Kali), detection engineering (Splunk), and OSINT wo
 
 ---
 
-## 🔧 Featured Build
+## 🔧 Featured Builds
 - [KryptStick: Encrypted Persistent Multi-Boot Toolkit](./builds/kryptstick_persistent-multiboot.md)
  
 ---
