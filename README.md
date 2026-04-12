@@ -122,6 +122,11 @@ including attack simulation (Kali), detection engineering (Splunk), and OSINT wo
 
 ---
 
+## 🔧 Featured Build
+- [KryptStick: Encrypted Persistent Multi-Boot Toolkit](./builds/kryptstick_persistent-multiboot.md)
+ 
+---
+
 ## 📁 Projects
 
 ### 1. Home Lab Build
