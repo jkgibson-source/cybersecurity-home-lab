@@ -35,7 +35,7 @@ def ingest_screenshot(image_path, host, tags, summary, exercise, sidecar_path=No
     conn.execute("""
         INSERT INTO evidence (type, source, timestamp, host, tags, summary, path, exercise)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-    """, ("screenshot", "jynx13", timestamp, host, json.dumps(tags), summary, dest_path, exercise))
+    """, ("screenshot", filename, timestamp, host, json.dumps(tags), summary, dest_path, exercise))
     conn.commit()
     conn.close()
     print(f"[ingest_screenshot] Ingested: {dest_path}")
