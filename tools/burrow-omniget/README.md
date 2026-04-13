@@ -141,6 +141,18 @@ All ingest operations write to the `evidence` table in `~/BirdsNest/burrow-data/
 
 ---
 
+## Screenshots
+
+**Initializing the data tree on Bird's Nest:**
+
+![init_burrow.py output](assets/burrow_omniget_4.png)
+
+**Searching the evidence database:**
+
+![search.py output](assets/burrow_omniget_5.png)
+
+---
+
 ## Notes
 
 - All data lives on Bird's Nest external drive — not the internal SSD
