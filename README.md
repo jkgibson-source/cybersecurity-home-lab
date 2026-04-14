@@ -131,7 +131,7 @@ Investigated and resolved a log ingestion failure caused by network misconfigura
 - Network troubleshooting
 - Log pipeline debugging
 
-[View Report](./splunk-forwarder-network-incident/splunk_incident_report.md)
+[View Report](./investigations/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
 
 ---
 
