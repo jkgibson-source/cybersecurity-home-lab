@@ -15,7 +15,7 @@ A Splunk Universal Forwarder on SkorpiOm failed to send logs to Splunk Enterpris
 SkorpiOm was connected to a different network than EagleEye11.
 
 ## Diagram
-![Network Diagram](splunk_network_diagram.svg)
+![Network Diagram](splunk_network_diagram_polished.svg)
 
 ## Resolution
 - Reconnected device to correct network
