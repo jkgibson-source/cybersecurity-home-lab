@@ -119,19 +119,12 @@ including attack simulation (Kali), detection engineering (Splunk), and OSINT wo
 | Investigations | Date | Summary |
 |---|---|---|
 | [Pi Network Node — testnet2](investigations/pi-node-testnet2/pi_node_security_analysis.md) | April 2026 | Pre-decommission analysis of a third-party blockchain Docker node running on the SIEM host. 2 High / 6 Medium findings. |
-
----
-
-### Splunk Forwarder Connectivity Failure (Network Segmentation)
-
-Investigated and resolved a log ingestion failure caused by network misconfiguration across segmented environments.
+| [Splunk Forwarder Connectivity Failure (Network Segmentation)](./investigations/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md) | April 2026 | Investigated and resolved a log ingestion failure caused by network misconfiguration across segmented environments.
 
 **Key Skills Demonstrated:**
 - Splunk administration
 - Network troubleshooting
 - Log pipeline debugging
-
-[View Report](./investigations/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
 
 ---
 
