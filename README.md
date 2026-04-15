@@ -123,6 +123,7 @@ All lab work follows a structured Git workflow to maintain clean version history
 |---|---|---|
 | [Pi Network Node — testnet2](investigations/pi-node-testnet2/pi_node_security_analysis.md) | April 2026 | Pre-decommission analysis of a third-party blockchain Docker node running on the SIEM host. 2 High / 6 Medium findings. |
 | [Splunk Forwarder Connectivity Failure (Network Segmentation)](./investigations/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md) | April 2026 | Investigated and resolved a log ingestion failure caused by network misconfiguration across segmented environments.
+| [Vulnerability Scanner Comparison: OpenVAS vs Nessus](./investigations/scanner_comparison_openvas_vs_nessus.md) | April 2026 | Comparison of OpenVAS (Greenbone CE) and Nessus Essentials against Metasploitable2, analyzing detection coverage, CVEs, and scanner behavior.
 
 ---
 
