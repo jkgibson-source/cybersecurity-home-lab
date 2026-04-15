@@ -4,7 +4,7 @@ OpenVAS (Greenbone CE) vs. Nessus Essentials
 
 Target: Metasploitable 2 \| The Burrow Home Lab \| April 15, 2026
 
-Author: JBird (jkgibson-source) \| Attack Machine: SkorpiOm (Kali Linux)
+Author: JKGibson (jkgibson-source) \| Attack Machine: SkorpiOm (Kali Linux)
 
 **1. Objective**
 
