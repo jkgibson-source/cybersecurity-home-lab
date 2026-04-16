@@ -121,7 +121,7 @@ All lab work follows a structured Git workflow to maintain clean version history
 
 Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 
-📂 [View All Investigations](./investigations/investigations_README.md)
+📂 [View All Investigations](./investigations/README.md)
 
 ### 🔥 Highlighted Work
 
