@@ -125,9 +125,9 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 
 ### 🔥 Highlighted Work
 
-- 🔍 [Windows 7 Offline Data Recovery (DFIR)](./investigations/dfir/windows7_offline_data_recovery.md)
-- 🌐 [Splunk Forwarder Network Incident](./investigations/network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
-- 🛠️ [OpenVAS vs Nessus Scanner Comparison](./investigations/vulnerability-research/scanner_comparison_openvas_vs_nessus.md)
+- 🔍 [Windows 7 Offline Data Recovery (DFIR)](./investigations/dfir/windows7_offline_data_recovery.md)   - Offline forensic recovery of user data from a locked legacy system
+- 🌐 [Splunk Forwarder Network Incident](./investigations/network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)   - Investigation of log forwarding issues and network visibility gaps
+- 🛠️ [OpenVAS vs Nessus Scanner Comparison](./investigations/vulnerability-research/scanner_comparison_openvas_vs_nessus.md)   - Comparative analysis of vulnerability scanning tools in a lab environment
 
 ---
 
