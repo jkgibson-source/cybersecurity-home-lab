@@ -28,17 +28,17 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 ---
 
 ### 🌐 Network Analysis
-- [Splunk Forwarder Network Incident](./network-analysis/splunk-forwarder-network-incident.md)
+- [Splunk Forwarder Network Incident](./network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
 
 ---
 
 ### 🛠️ Vulnerability Research
-- [OpenVAS vs Nessus Scanner Comparison](./vulnerability-research/scanner_comparison_openvas.md)
+- [OpenVAS vs Nessus Scanner Comparison](./vulnerability-research/scanner_comparison_openvas_vs_nessus.md)
 
 ---
 
 ### ⛓️ Blockchain / OSINT
-- [Pi Node Testnet Investigation](./blockchain/pi-node-testnet2/README.md)
+- [Pi Node Testnet Investigation](./blockchain/pi-node-testnet2/pi_node_security_analysis.md)
 
 ---
 
