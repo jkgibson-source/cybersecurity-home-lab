@@ -30,6 +30,8 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 ### 🌐 Network Analysis
 - [Splunk Forwarder Network Incident](./network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
 
+- [AnonSurf DNS Failure (Parrot OS Live)](./network-analysis/anonsurf_dns_failure_burrow.md)
+
 ---
 
 ### 🛠️ Vulnerability Research
