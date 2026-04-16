@@ -121,13 +121,13 @@ All lab work follows a structured Git workflow to maintain clean version history
 
 Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 
-📂 [View All Investigations](./investigations/README.md)
+📂 [View All Investigations](./investigations/investigations_README.md)
 
 ### 🔥 Highlighted Work
 
 - 🔍 [Windows 7 Offline Data Recovery (DFIR)](./investigations/dfir/windows7_offline_data_recovery.md)
-- 🌐 [Splunk Forwarder Network Incident](./investigations/network-analysis/splunk-forwarder-network-incident.md)
-- 🛠️ [OpenVAS vs Nessus Scanner Comparison](./investigations/vulnerability-research/scanner_comparison_openvas.md)
+- 🌐 [Splunk Forwarder Network Incident](./investigations/network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
+- 🛠️ [OpenVAS vs Nessus Scanner Comparison](./investigations/vulnerability-research/scanner_comparison_openvas_vs_nessus.md)
 
 ---
 
