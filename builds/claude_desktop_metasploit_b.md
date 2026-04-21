@@ -1,5 +1,7 @@
 # 🦂 The Burrow
 
+![Claude Metasploit Pipeline](./claude-metasploit-pipeline.png)
+
 ## 🔥 Claude Desktop + MetasploitMCP Pipeline
 
 ### 🛠️ Build Report \| The Burrow Lab \| April 2026
