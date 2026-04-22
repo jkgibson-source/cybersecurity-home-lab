@@ -138,6 +138,7 @@ Natural language example:
 
   Exfiltration Over T1041             Data returned via Claude responses
   C2                                  RPC/AI channel    
+  
   ----------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
