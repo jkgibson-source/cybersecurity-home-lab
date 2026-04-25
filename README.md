@@ -16,7 +16,7 @@ including attack simulation (Kali), detection engineering (Splunk), and OSINT wo
 
 ## 🧬 The Burrow Architecture
 
-📜 [View Evolution Timeline](./architecture/burrow_evolution_timeline_c.md)
+📜 [View Evolution Timeline](./architecture/burrow_evolution_timeline_c.md) 
 
 ## Development Workflow
 All lab work follows a structured Git workflow to maintain clean version history and reproducibility. See [/docs/burrow_git_workflow_standard.md](./docs/workflows/burrow_git_workflow_standard.md)
@@ -280,6 +280,8 @@ Splunk (kill-chain monitoring)
 ```
 
 **Tools:** Ollama, MetasploitMCP, Metasploit Framework, Python, Splunk
+
+Reports are drafted with AI writing assistance; all techincal work, findings, and analysis reflect my own lab environment and hands-on research.
 
 ---
 
