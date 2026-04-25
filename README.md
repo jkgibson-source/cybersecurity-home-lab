@@ -9,7 +9,7 @@ enthusiast transitioning into the cybersecurity field.
 
 ## 🔬 Home Lab Architecture
 
-![Lab Diagram](burrow-network-diagram-professional.svg)
+![Lab Diagram](./assets/the_burrow_network_diagram_april2026.svg)
 
 This lab simulates a segmented enterprise environment for purple team operations, 
 including attack simulation (Kali), detection engineering (Splunk), and OSINT workflows.
