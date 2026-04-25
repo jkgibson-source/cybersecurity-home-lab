@@ -14,6 +14,10 @@ enthusiast transitioning into the cybersecurity field.
 This lab simulates a segmented enterprise environment for purple team operations, 
 including attack simulation (Kali), detection engineering (Splunk), and OSINT workflows.
 
+## 🧬 The Burrow Architecture
+
+📜 [View Evolution Timeline](./architecture/burrow_evolution_timeline_c.md)
+
 ## Development Workflow
 All lab work follows a structured Git workflow to maintain clean version history and reproducibility. See [/docs/burrow_git_workflow_standard.md](./docs/workflows/burrow_git_workflow_standard.md)
 
