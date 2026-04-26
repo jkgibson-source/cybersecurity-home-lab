@@ -140,6 +140,9 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 - [KryptStick: Encrypted Persistent Multi-Boot Toolkit](./builds/kryptstick_persistent-multiboot.md)
 - [SuperStick: Encrypted Persistent Multi-Boot Toolkit](./builds/superstick-build-report.md)
 - [Claude Desktop for Linux + Metasploit MCP Pipeline](./builds/claude_desktop_metasploit_b.md)
+- [Hermes Forge Local AI Deployment](./builds/hermes_forge_krypton1t3.md)
+- [Wazuh Deployment Case Study](./builds/wazuh_portfolio_case_study.md)
+- [Krypton1t3 OS Migration Report](./builds/Krypton1t3_Migration_Report_e.md)
  
 ---
 
