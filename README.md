@@ -41,11 +41,11 @@ All lab work follows a structured Git workflow to maintain clean version history
 
 | Machine | Hardware | OS / Role |
 | --- | --- | --- |
-| **Attack Machine** | Apple MacBook Pro A1286 Mid-2010 | Kali Linux (Xfce) — primary pentesting platform |
-| **SIEM / AI Host** | Apple Mac mini M1 (2020) | macOS — Splunk Enterprise, Ollama, Docker |
-| **OSINT Machine** | Apple MacBook Air 13" (2017) | macOS Monterey 12.7.6 — OSINT toolkit |
+| **SkorpiOm** | Apple MacBook Pro A1286 Mid-2010 | Kali Linux (Xfce) — primary pentesting platform |
+| **EagleEye11** | Apple Mac mini M1 (2020) | macOS — Splunk Enterprise, Ollama, Docker |
+| **Jynx13** | Apple MacBook Air 13" (2017) | macOS Monterey 12.7.6 — OSINT toolkit |
 | **Target Machine (VM)** | Metasploitable 2 | VirtualBox on attack machine — intentionally vulnerable |
-| **Target Machine (Physical)** | Apple MacBook Pro A1398 Mid-2014 | Bare metal — physical target / future AI dev workstation |
+| **Krypton1t3** | Apple MacBook Pro A1398 Mid-2014 | Fedora Security Lab 44 - Hybrid Workstation, Ollama |
 
 ### Network & Remote Access
 
@@ -297,7 +297,7 @@ Splunk (kill-chain monitoring)
 
 **Tools:** Ollama, MetasploitMCP, Metasploit Framework, Python, Splunk
 
-Reports are drafted with AI writing assistance; all techincal work, findings, and analysis reflect my own lab environment and hands-on research.
+Reports are drafted with AI writing assistance; all technical work, findings, and analysis reflect my own lab environment and hands-on research.
 
 ---
 
