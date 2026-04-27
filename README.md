@@ -18,6 +18,18 @@ including attack simulation (Kali), detection engineering (Splunk), and OSINT wo
 
 📜 [View Evolution Timeline](./architecture/burrow_evolution_timeline_c.md) 
 
+## 🦂 Lab Architecture
+
+![The Burrow Architecture](./assets/diagrams/burrow_architecture_showpiece_vnext.svg)
+
+The Burrow is a multi-node cybersecurity lab designed to simulate real-world attack, detection, and analysis workflows with clear separation of roles and clean telemetry.
+
+Key components:
+- 🖥️ EagleEye11 — SIEM & Detection (Hermes Ops)
+- 🧪 Krypton1t3 — Target/Testbed (Hermes Forge)
+- 🐉 SkorpiOm — Primary Attacker
+- 💻 Jynx13 — Multi-role mobile platform (OSINT + Attack + Future RF)
+
 ## Development Workflow
 All lab work follows a structured Git workflow to maintain clean version history and reproducibility. See [/docs/burrow_git_workflow_standard.md](./docs/workflows/burrow_git_workflow_standard.md)
 
