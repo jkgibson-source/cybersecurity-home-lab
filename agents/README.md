@@ -48,7 +48,7 @@ SkorpiOm does not rush.
 
 He probes, tests, and executes when conditions are right. Every action is intentional, and every engagement is an opportunity to learn something new about the target—and about the system itself.
 
-🔗 [Read Origin Story](./skorpiom-origin.md)
+🔗 [Read Origin Story](./agents/skorpiom_origin.md)
 
 ---
 
@@ -64,7 +64,7 @@ While other agents act, EagleEye11 observes.
 
 He identifies patterns in what would otherwise appear to be noise, tracks system behavior over time, and ensures that no action goes unrecorded. His presence transforms isolated actions into a coherent operational picture.
 
-🔗 [Read Origin Story](./eagleeye11-origin.md)
+🔗 [Read Origin Story](./agents/eagleeye11_origin.md)
 
 ---
 
@@ -80,7 +80,7 @@ Her strength is not force—it is awareness.
 
 She uncovers what others overlook, maps the terrain before engagement begins, and provides the context necessary for informed action. In many cases, the success of an operation depends on what she finds before anyone else makes a move.
 
-🔗 [Read Origin Story](./jynx13-origin.md)
+🔗 [Read Origin Story](./agents/jynx13_origin.md)
 
 ---
 
@@ -96,7 +96,7 @@ Where other agents operate within defined boundaries, Krypton1t3 explores beyond
 
 He is where failures are analyzed, where limitations are pushed, and where the system evolves. Not every experiment succeeds—but every outcome contributes to a deeper understanding of how the Burrow operates.
 
-🔗 [Read Origin Story](./krypton1t3-origin.md)
+🔗 [Read Origin Story](./agents/krypton1t3_origin.md)
 
 ---
 
@@ -122,7 +122,7 @@ It does not simply boot systems.
 
 It becomes them.
 
-🔗 [Read Origin Story](./superstick-origin.md)
+🔗 [Read Origin Story](./agents/superstick_origin_story.md)
 
 ---
 
