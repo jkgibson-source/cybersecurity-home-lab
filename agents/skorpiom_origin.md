@@ -13,6 +13,13 @@
 
 ---
 
+Summary:
+- Legacy MacBook Pro repurposed into Kali attack platform
+- Overcame EFI, networking, and driver-level obstacles manually
+- First operations validated via Metasploit + Splunk visibility
+
+---
+
 ## 01 // Before the Shell
 
 Before SkorpiOm was SkorpiOm, it was just a machine. A 2010 MacBook Pro A1286 — aging hardware, spinning rust, a relic. Apple had long since abandoned it. No security updates. No future. It sat at the edge of obsolescence, exactly like every machine that becomes something greater before it is reborn.
