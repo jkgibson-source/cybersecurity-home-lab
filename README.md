@@ -9,7 +9,7 @@ enthusiast transitioning into the cybersecurity field.
 
 ## 🔬 Home Lab Architecture
 
-![Lab Diagram](./assets/the_burrow_network_diagram_april2026.svg)
+![Lab Diagram](./assets/diagrams/the_burrow_network_diagram_april2026.svg)
 
 This lab simulates a segmented enterprise environment for purple team operations, 
 including attack simulation (Kali), detection engineering (Splunk), and OSINT workflows.
@@ -20,7 +20,7 @@ including attack simulation (Kali), detection engineering (Splunk), and OSINT wo
 
 ## 🦂 Lab Architecture
 
-![The Burrow Architecture](./assets/diagrams/burrow_architecture_showpiece_vnext.svg)
+![The Burrow Architecture](./assets/diagrams/burrow_architecture_vnext.svg)
 
 The Burrow is a multi-node cybersecurity lab designed to simulate real-world attack, detection, and analysis workflows with clear separation of roles and clean telemetry.
 
@@ -29,6 +29,13 @@ Key components:
 - 🧪 Krypton1t3 — Target/Testbed (Hermes Forge)
 - 🐉 SkorpiOm — Primary Attacker
 - 💻 Jynx13 — Multi-role mobile platform (OSINT + Attack + Future RF)
+
+## 🦂 The Burrow System
+
+Explore the Burrow’s agents, architecture, and evolution:
+
+- 🧬 [Burrow Field Guide](./docs/burrow_field_guide.md)
+- 🧠 [Agent Profiles](./agents/README.md)
 
 ## Development Workflow
 All lab work follows a structured Git workflow to maintain clean version history and reproducibility. See [/docs/burrow_git_workflow_standard.md](./docs/workflows/burrow_git_workflow_standard.md)
