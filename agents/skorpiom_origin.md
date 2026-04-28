@@ -1,9 +1,9 @@
-# Sk0rpi0m
+# SkorpiOm
 ### Agent Dossier // The Burrow // Origin File
 
 ---
 
-**Agent ID:** SKORPIOM_13  
+**Agent ID:** SKORPIOM_  
 **Class:** Sentinel / Strategist  
 **Origin:** The Burrow Labs, Miami  
 **Hardware Shell:** MBP A1286 // Mid-2010  
