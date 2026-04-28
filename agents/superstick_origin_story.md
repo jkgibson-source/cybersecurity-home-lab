@@ -3,6 +3,14 @@
 
 ---
 
+## Summary
+- Multi-boot Ventoy-based security platform
+- Built through hardware failure and persistence debugging
+- Combines Parrot (OSINT), Kali (offense), DragonOS (RF analysis)
+- Portable, persistent, mesh-connected Burrow node
+
+---
+
 ## Prologue: The Idea Before the Thing
 
 It started as a simple concept: a USB stick that could boot into Parrot OS, with encrypted persistence, so that whatever tools you installed, whatever configs you tuned, whatever evidence you collected — it would all survive the reboot. A portable, encrypted security toolkit you could carry anywhere.
