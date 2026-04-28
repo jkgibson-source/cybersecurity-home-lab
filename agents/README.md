@@ -48,7 +48,7 @@ SkorpiOm does not rush.
 
 He probes, tests, and executes when conditions are right. Every action is intentional, and every engagement is an opportunity to learn something new about the target—and about the system itself.
 
-🔗 [Read Origin Story](./agents/skorpiom_origin.md)
+🔗 [Read Origin Story](../agents/skorpiom_origin.md)
 
 ---
 
