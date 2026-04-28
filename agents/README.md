@@ -13,9 +13,9 @@ Every agent exists for a reason.
 Every role feeds the mission.
 Every mission strengthens the system.
 
-> **Clarification:** In The Burrow, “agents” are operator-controlled systems 
-> with defined roles in a larger workflow. While AI tools are integrated 
-> throughout the lab, they serve as support—not autonomous decision-makers.
+> **Clarification:** In The Burrow, “agents” refers to operator-controlled systems assigned specific 
+> roles within the workflow. AI tools are used across the lab to assis with analysis, documentation, 
+> and execution, but final decisions remain human-led.
 
 ---
 
