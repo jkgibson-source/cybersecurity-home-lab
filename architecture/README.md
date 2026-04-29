@@ -2,7 +2,7 @@
 
 > ⚠️ This is a live operational environment.  
 > The images below represent the physical implementation of the Burrow architecture.
-![Burrow Environment Detail](../assets/setup/burrow_environment_detail.jpeg)
+![Burrow Environment Detail](../assets/setup/burrow_environment_detail_1.jpeg)
 
 ---
 
@@ -55,7 +55,7 @@ Jynx13 is a MacBook Air 2017 running macOS natively, but its real capability com
 
 ## 🖥️ Command Center
 
-![Burrow Command Center](../assets/setup/burrow_command_center.jpeg)
+![Burrow Command Center](../assets/setup/burrow_command_center_1.jpeg)
 
 The central display runs EagleEye11 — Mac mini M1 — reinforcing its role as the system-wide observability layer. SkorpiOm, Jynx13, and Krypton1t3 are arranged across the desk, each running their node wallpaper as a persistent visual reminder of role identity.
 
