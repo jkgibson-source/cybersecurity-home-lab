@@ -2,6 +2,7 @@
 
 > ⚠️ This is a live operational environment.  
 > The images below represent the physical implementation of the Burrow architecture.
+![Burrow Environment Detail](../assets/setup/burrow_environment_detail.jpeg)
 
 ---
 
@@ -39,7 +40,7 @@ Adversarial simulation and penetration testing.
 
 SkorpiOm is the primary attack box, running Kali Linux on a MacBook Pro A1286. It carries the full offensive toolkit — Metasploit (with MetasploitMCP for Claude integration), nmap, theHarvester, Sherlock, and a Splunk Universal Forwarder shipping logs back to EagleEye11 in real time. Red team workflows start here.
 
-![SkorpiOm](assets/setup/skorpiom_attack_node.jpg)
+![SkorpiOm](../assets/setup/skorpiom_attack_node.jpeg)
 
 ---
 
@@ -48,13 +49,13 @@ Mobile OSINT and live-environment operations.
 
 Jynx13 is a MacBook Air 2017 running macOS natively, but its real capability comes from the SuperStick — a 128GB Kingston USB 3.2 drive running Ventoy with Parrot OS, Kali, and DragonOS available as live-boot options. LUKS-encrypted persistence and a local Ollama instance make it a fully self-contained field unit that doesn't depend on the home network.
 
-![Jynx13](assets/setup/jynx13_field_unit.jpg)
+![Jynx13](../assets/setup/jynx13_field_unit.jpeg)
 
 ---
 
 ## 🖥️ Command Center
 
-![Burrow Command Center](assets/setup/burrow_command_center.jpg)
+![Burrow Command Center](../assets/setup/burrow_command_center.jpeg)
 
 The central display runs EagleEye11 — Mac mini M1 — reinforcing its role as the system-wide observability layer. SkorpiOm, Jynx13, and Krypton1t3 are arranged across the desk, each running their node wallpaper as a persistent visual reminder of role identity.
 
