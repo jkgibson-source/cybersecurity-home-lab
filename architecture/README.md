@@ -30,7 +30,7 @@ AI workloads, agent development, and experimental tooling.
 
 Krypton1t3 runs Fedora Security Lab and carries the heaviest local AI stack in the lab — multiple Ollama models including DeepSeek-Coder, Mistral, and Phi variants. It's where Hermes Agent and Gemini CLI live, and where new tools and pipelines get built and tested before they're trusted anywhere else.
 
-![Krypton1t3](./assets/setup/krypton1t3_forge_node.jpg)
+![Krypton1t3](../assets/setup/krypton1t3_forge_node.jpg)
 
 ---
 
