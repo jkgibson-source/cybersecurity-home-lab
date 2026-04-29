@@ -82,7 +82,7 @@ The Burrow is built on three principles that shape every decision about how mach
 | 🔴 | SkorpiOm | Kali · Metasploit · Offensive operations |
 | 🟣 | Jynx13 | Parrot OS · Ventoy · Field recon |
 
-## 🛜 [Remote Access Architecture](./remote-access-architecture.md)
+## 🛜 [Remote Access Architecture](./remote-access-architecture_b.md)
 
 ---
 
