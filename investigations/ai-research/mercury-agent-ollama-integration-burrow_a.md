@@ -104,4 +104,4 @@ This experiment is paused, not abandoned. Worth revisiting when either side of t
 
 ---
 
-**Blue • Gold • Black | Experimental Node: Krypton1t3**
+**Green • Black | Experimental Node: Krypton1t3**
