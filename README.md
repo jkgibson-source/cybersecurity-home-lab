@@ -36,7 +36,7 @@ Explore the Burrow’s agents, architecture, and evolution:
 
 - 🧬 [Burrow Field Guide](./docs/burrow_field_guide.md)
 - 🧠 [Agent Profiles](./agents/README.md)
-- 🦾 [See the Physical Lab](./architecture/README.md)
+- 🖥️ [The Burrow Command Center](./architecture/README.md) - The physical lab: hardward, node roles, and how the architecture maps to real machiness.
 
 ## Development Workflow
 All lab work follows a structured Git workflow to maintain clean version history and reproducibility. See [/docs/burrow_git_workflow_standard.md](./docs/workflows/burrow_git_workflow_standard.md)
