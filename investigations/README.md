@@ -50,6 +50,11 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 
 ---
 
+### 👊 Incident Response
+- [CVE 2026-31431](./incident-response/CVE-2026-31431-copy.fail/README.md)
+
+---
+
 ### 🧪 Lab Notes
 - Ongoing experiments and preliminary testing  
 - See: [`lab-notes/`](./lab-notes/)
