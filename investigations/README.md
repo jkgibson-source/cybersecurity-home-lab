@@ -47,6 +47,7 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 ### 🤖 AI Research
 - [HexStrike + Ollama MCP](./ai-research/hexstrike-ai-reliability.md)
 - [Mercury-Agent + Ollama Integration Test](./ai-research/mercury-agent-ollama-integration-burrow_a.md)
+- [Strix AI Pentest Agent on Krypton1t3](./strix_krypton1t3_report_2026-05-08.md)
 
 ---
 
