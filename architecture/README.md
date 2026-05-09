@@ -84,6 +84,8 @@ The Burrow is built on three principles that shape every decision about how mach
 
 ## 🛜 [Remote Access Architecture](/architecture/remote-access-architecture_c.md)
 
+## 👀 [WatchYourLAN Deployment](/architecture/watchyourlan_burrow_architecture_c.md)
+
 ---
 
 ## 🦾 The Burrow
