@@ -158,6 +158,7 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 
 ## 🔧 Featured Builds
 - [KryptStick: Encrypted Persistent Multi-Boot Toolkit](./builds/kryptstick_persistent-multiboot.md)
+- [KryptStick Upgrade Addendum!](./builds/kryptstick-addendum-2026-05-01.md)
 - [SuperStick: Encrypted Persistent Multi-Boot Toolkit](./builds/superstick-build-report.md)
 - [SuperStick: Kali Persistence Addendum](./builds/superstick-persistence-addendum-b-2026-04-26.md)
 - [Claude Desktop for Linux + Metasploit MCP Pipeline](./builds/claude_desktop_metasploit_b.md)
