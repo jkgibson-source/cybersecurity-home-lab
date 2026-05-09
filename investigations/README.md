@@ -53,7 +53,7 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 
 ### 👊 Incident Response
 - [CVE 2026-31431 Copy.Fail](./incident-response/CVE-2026-31431-copy.fail/README.md)
-- [CVE 2026-43284 CVE 2026-43500 Dirty Frag](./incident-response/CVE-2026-43294_CVE-2026-43500_dirty.frag/README.md)
+- [CVE 2026-43284 CVE 2026-43500 Dirty Frag](./incident-response/CVE-2026-43284_CVE-2026-43500_dirty.frag/README.md)
 
 ---
 
