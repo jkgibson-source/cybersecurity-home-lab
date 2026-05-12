@@ -1,45 +1,42 @@
 # 🔐 Cybersecurity Home Lab
 
-A self-built cybersecurity home lab documenting my journey from hardware
-refurbishment to penetration testing, digital forensics, network analysis,
-OSINT, and SIEM monitoring. Built and maintained by a self-taught security
-enthusiast transitioning into the cybersecurity field.
+**The Burrow** is a multi-node purple-team home lab where I run end-to-end
+offensive, defensive, and forensic operations on refurbished hardware and
+infrastructure I built from scratch — penetration testing, detection
+engineering, SIEM pipelines, digital forensics, OSINT, and AI-assisted
+security tooling.
+
+Every node has a defined role. Every action is logged and analyzed. Every
+finding gets documented.
 
 ---
 
-## 🔬 Home Lab Architecture
-
-![Lab Diagram](./assets/diagrams/the_burrow_network_diagram_april2026.svg)
-
-This lab simulates a segmented enterprise environment for purple team operations, 
-including attack simulation (Kali), detection engineering (Splunk), and OSINT workflows.
-
-## 🧬 The Burrow Architecture
-
-📜 [View Evolution Timeline](./architecture/burrow_evolution_timeline_c.md) 
-
-## 🦂 Lab Architecture
+## 🦂 The Burrow — Architecture
 
 ![The Burrow Architecture](./assets/diagrams/burrow_architecture_vnext.svg)
 
-The Burrow is a multi-node cybersecurity lab designed to simulate real-world attack, detection, and analysis workflows with clear separation of roles and clean telemetry.
+A segmented multi-node environment built to simulate real-world attack,
+detection, and analysis workflows — with clear separation of roles and
+clean telemetry across every operation.
 
-Key components:
-- 🖥️ EagleEye11 — SIEM & Detection (Hermes Ops)
-- 🧪 Krypton1t3 — Target/Testbed (Hermes Forge)
-- 🐉 SkorpiOm — Primary Attacker
-- 💻 Jynx13 — Multi-role mobile platform (OSINT + Attack + Future RF)
+### Core Agents
+- 🦂 **SkorpiOm** — Offensive Operations (primary attacker)
+- 🟡 **EagleEye11** — SIEM & Detection (Hermes Ops)
+- 🟣 **Jynx13** — OSINT & Reconnaissance (multi-role mobile platform)
+- 🧪 **Krypton1t3** — R&D & Experimentation (Hermes Forge)
 
-## 🦂 The Burrow System
+### Operational Flow
+`Reconnaissance → Execution → Observation → Evolution`
 
-Explore the Burrow’s agents, architecture, and evolution:
-
+### Deep Dives
 - 🧬 [Burrow Field Guide](./docs/burrow_field_guide.md)
 - 🧠 [Agent Profiles](./agents/README.md)
-- 🖥️ [The Burrow Command Center](./architecture/README.md) - The physical lab: hardward, node roles, and how the architecture maps to real machiness.
+- 🖥️ [Command Center — physical lab, node roles, and how the architecture maps to real hardware](./architecture/README.md)
+- 📜 [Evolution Timeline](./architecture/burrow_evolution_timeline_c.md)
+- 🌐 [Network Diagram (April 2026)](./assets/diagrams/the_burrow_network_diagram_april2026.svg)
 
-## Development Workflow
-All lab work follows a structured Git workflow to maintain clean version history and reproducibility. See [/docs/burrow_git_workflow_standard.md](./docs/workflows/burrow_git_workflow_standard.md)
+### Development Workflow
+All lab work follows a structured Git workflow for clean version history and reproducibility — see the [Burrow Git Workflow Standard](./docs/workflows/burrow_git_workflow_standard.md).
 
 ---
 
@@ -73,14 +70,22 @@ All lab work follows a structured Git workflow to maintain clean version history
 
 ## 🛠️ Skills Demonstrated
 
+### 🏆 Headline Wins
+
+- 🦂 **macOS Big Sur architectural finding** — Documented how TCC and SIP defeat endpoint monitoring agents at the OS boundary; multi-phase purple-team writeup
+- 🌐 **Real-time exploitation detection** — Built a cross-machine SIEM pipeline (Kali → Splunk via TCP 9997) and detected active exploitation in real time through a custom monitoring dashboard
+- 🔥 **Full kill chain captured end-to-end** — Chained UnrealIRCd (CVE-2010-2075) and vsftpd (CVE-2011-2523) to root on Metasploitable, captured the entire attack at the packet level via Wireshark, and reconstructed the unencrypted shell session via TCP stream follow
+- 🤖 **AI-assisted red team plumbing** — Integrated Metasploit with local LLMs via MCP (MetasploitMCP in HTTP/SSE + Ollama) to build the rails for agentic offensive operations
+- 👊 **Active incident response** — Two real CVE engagements documented (Dirty Frag chained CVEs, Copy.Fail)
+
 ### Offensive Security
 
-* Vulnerability scanning with Nmap
-* Exploitation with Metasploit Framework
 * Identified and exploited CVE-2010-2075 (UnrealIRCd backdoor)
 * Identified and exploited vsftpd 2.3.4 backdoor (CVE-2011-2523)
 * Post-exploitation enumeration (privilege escalation, credential harvesting)
 * Password hash extraction from `/etc/shadow` and offline cracking
+* Vulnerability scanning with Nmap
+* Exploitation with Metasploit Framework
 
 ### OSINT
 
@@ -91,20 +96,20 @@ All lab work follows a structured Git workflow to maintain clean version history
 
 ### Network Analysis
 
+* Unencrypted shell traffic capture and reconstruction via TCP stream follow
 * Packet capture and analysis with Wireshark
 * TCP/IP protocol analysis (SYN, ACK, PSH, RST flags)
 * TCP three-way handshake analysis
 * DNS traffic analysis
-* Unencrypted shell traffic capture and reconstruction via TCP stream follow
 
 ### SIEM & Detection
 
+* Detected active exploitation in real time via netstat and process monitoring
+* Built cross-machine log pipeline (Kali → Splunk via TCP 9997)
+* Built real-time security monitoring dashboard
 * Deployed Splunk Enterprise on Apple Silicon (M1)
 * Configured Universal Forwarder on Kali Linux
-* Built cross-machine log pipeline (Kali → Splunk via TCP 9997)
 * Installed and configured Splunk Add-on for Unix and Linux
-* Built real-time security monitoring dashboard
-* Detected active exploitation in real time via netstat and process monitoring
 
 ### Digital Forensics
 
@@ -117,9 +122,9 @@ All lab work follows a structured Git workflow to maintain clean version history
 
 ### AI & Automation
 
-* Deployed local LLM inference with Ollama across multiple machines
 * Integrated Metasploit Framework with MCP (Model Context Protocol) via MetasploitMCP server
 * Ran MetasploitMCP in HTTP/SSE mode on localhost for AI-driven tool invocation
+* Deployed local LLM inference with Ollama across multiple machines
 * Configured AI agent (Hermes) with local model backend and security scanner
 
 ### System Administration
@@ -133,11 +138,25 @@ All lab work follows a structured Git workflow to maintain clean version history
 * Cross-platform file transfer via SCP
 * Tailscale mesh network deployment and DNS conflict resolution
 
-### Programming & Scripting
+### Programming & Tooling
 
-* Python development via Harvard CS50P (through Lecture 3 / Exceptions)
-* Linux command-line scripting (bash)
-* OverTheWire Bandit wargame progression (through Level 15)
+* **Python** — Built [Burrow OmniGet](./tools/burrow-omniget/README.md), a modular evidence ingestion pipeline (SQLite backend, JSON sidecars, separate ingest/search/utils modules). Strengthening fundamentals via Harvard CS50P.
+* **Bash** — Operational scripting for log triage, Splunk forwarder configuration, systemd service management, and shell-based wargames (OverTheWire Bandit).
+* **AI-augmented development** — Pair-program with Claude to design, scaffold, and iterate on lab tooling; integrate LLMs into security workflows via MCP (MetasploitMCP, Ollama, agentic pentest tools). Working toward fuller independent authorship through structured study and self-directed practice.
+
+---
+
+## 🎯 ATT&CK Coverage
+
+Techniques exercised across pentests, network analysis, and detection work in The Burrow:
+
+- **T1190** — Exploit Public-Facing Application *(UnrealIRCd, vsftpd backdoors)*
+- **T1059.004** — Command and Scripting Interpreter: Unix Shell *(post-exploitation sessions)*
+- **T1003.008** — OS Credential Dumping: /etc/passwd and /etc/shadow *(Metasploitable root → shadow extraction)*
+- **T1110.002** — Brute Force: Password Cracking *(offline hash cracking)*
+- **T1040** — Network Sniffing *(Wireshark TCP stream reconstruction)*
+- **T1057** — Process Discovery *(post-exploit enumeration; SIEM detection panel)*
+- **T1049** — System Network Connections Discovery *(netstat-based monitoring + detection)*
 
 ---
 
@@ -149,10 +168,12 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 
 ### 🔥 Highlighted Work
 
+- 👊 [Dirty Frag — CVE-2026-43284 & CVE-2026-43500 Incident Response](./investigations/incident-response/CVE-2026-43284_CVE-2026-43500_dirty.frag/README.md)   - Active incident response engagement on chained CVEs
+- 🦂 [Krypton1t3 macOS Detection Engineering Pentest](./investigations/pentests/krypton1t3-big-sur/README.md)   - Multi-phase purple team engagement documenting how macOS Big Sur's TCC and SIP privacy framework defeats endpoint monitoring agents at the architecture level
+- 🤖 [Strix AI Pentest Agent on Krypton1t3](./investigations/ai-research/strix_krypton1t3_report_2026-05-08.md)   - Evaluation of an agentic AI pentest tool against a hardened lab target
 - 🔍 [Windows 7 Offline Data Recovery (DFIR)](./investigations/dfir/windows7_offline_data_recovery.md)   - Offline forensic recovery of user data from a locked legacy system
 - 🌐 [Splunk Forwarder Network Incident](./investigations/network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)   - Investigation of log forwarding issues and network visibility gaps
 - 🛠️ [OpenVAS vs Nessus Scanner Comparison](./investigations/vulnerability-research/scanner_comparison_openvas_vs_nessus.md)   - Comparative analysis of vulnerability scanning tools in a lab environment
-- 🦂 [Krypton1t3 macOS Detection Engineering Pentest](./investigations/pentests/krypton1t3-big-sur/README.md)   - Multi-phase purple team engagement documenting how macOS Big Sur's TCC and SIP privacy framework defeats endpoint monitoring agents at the architecture level.
 
 ---
 
@@ -165,7 +186,15 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 - [Hermes Forge Local AI Deployment](./builds/hermes_forge_krypton1t3.md)
 - [Wazuh Deployment Case Study](./builds/wazuh_portfolio_case_study.md)
 - [Krypton1t3 OS Migration Report](./builds/Krypton1t3_Migration_Report_e.md)
- 
+
+---
+
+## 🧰 Lab Tooling
+
+Custom tools built to support lab operations.
+
+- [Burrow OmniGet](./tools/burrow-omniget/README.md) — local evidence ingestion pipeline for screenshots, artifacts, and analyst notes; SQLite-backed with JSON sidecars, designed to feed a future search + correlation + LLM analyst layer
+
 ---
 
 ## 📁 Projects
@@ -306,14 +335,12 @@ Splunk (kill-chain monitoring)
 
 **Tools:** Ollama, MetasploitMCP, Metasploit Framework, Python, Splunk
 
-Reports are drafted with AI writing assistance; all technical work, findings, and analysis reflect my own lab environment and hands-on research.
-
 ---
 
 ## 📚 Learning Platforms & Coursework
 
-* [Harvard CS50P](https://cs50.harvard.edu/python) — Python (through Lecture 3 / Exceptions)
-* [OverTheWire Wargames](https://overthewire.org) — Bandit (through Level 15)
+* [Harvard CS50P](https://cs50.harvard.edu/python) — Python (in progress)
+* [OverTheWire Wargames](https://overthewire.org) — Bandit (in progress)
 * [LabEx](https://labex.io) — Linux fundamentals
 * [TryHackMe](https://tryhackme.com)
 
@@ -346,6 +373,9 @@ Reports are drafted with AI writing assistance; all technical work, findings, an
 
 ---
 
-*This lab is for educational purposes only. All testing is performed
-on intentionally vulnerable systems in an isolated environment.*
+### About this repository
+
+*This lab is for educational purposes only. All testing is performed on intentionally vulnerable systems in an isolated environment.*
+
+*Reports and documentation are drafted with AI writing assistance (Claude). All technical work, findings, and analysis reflect my own lab environment and hands-on research.*
 
