@@ -52,9 +52,13 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 ---
 
 ### 👊 Incident Response
+- [CVE 2020-1938 Ghostcat](./incident-response/CVE-2020-1938-ghostcat/README.md)
+- [CVE 2026-7482 Bleeding Llama](./incident-response/CVE-2026-7482-bleeding-llama/README.md)
 - [CVE 2026-31431 Copy.Fail](./incident-response/CVE-2026-31431-copy.fail/README.md)
+- [CVE 2026-31635 DirtyDecrypt](./incident-response/CVE-2026-31635-DirtyDecrypt/README.md)
 - [CVE 2026-43284 CVE 2026-43500 Dirty Frag](./incident-response/CVE-2026-43284_CVE-2026-43500_dirty.frag/README.md)
-
+- [CVE 2026-46333-ssh-keysign-pwn](./incident-response/CVE-2026-46333-ssh-keysign-pwn/README.md)
+  
 ---
 
 ### 🧪 Lab Notes
