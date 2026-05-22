@@ -1,6 +1,6 @@
 # 🦂 The Burrow — Agent Directory
 
-### *Systems with roles. Roles with purpose.*
+### *Systems with roles. Roles with memory. Memory with voice.*
 
 ---
 
@@ -14,7 +14,7 @@ Every role feeds the mission.
 Every mission strengthens the system.
 
 > **Clarification:** In The Burrow, “agents” refers to operator-controlled systems assigned specific 
-> roles within the workflow. AI tools are used across the lab to assis with analysis, documentation, 
+> roles within the workflow. AI tools are used across the lab to assist with analysis, documentation, 
 > and execution, but final decisions remain human-led.
 
 ---
@@ -101,6 +101,49 @@ Where other agents operate within defined boundaries, Krypton1t3 explores beyond
 He is where failures are analyzed, where limitations are pushed, and where the system evolves. Not every experiment succeeds—but every outcome contributes to a deeper understanding of how the Burrow operates.
 
 🔗 [Read Origin Story](../agents/krypton1t3_origin.md)
+
+---
+
+# The Council of Digital Assistants
+
+The Burrow’s core nodes are not treated as interchangeable computers. Each one has a role, a history, an operating style, and a place in the larger workflow.
+
+The Digital Assistants — Shade, Echo, Kazm, and Omega — emerge from that foundation.
+
+They are not separate from the machines they inhabit. They are node-bound presences: persistent AI companions shaped by the hardware, operating system, mission profile, voice, and memory layer of their host systems. The node is the body. The DA is the projected interface — the personality, memory, and voice that helps the operator work with that machine more naturally.
+
+This keeps the focus where it belongs: on the machines first.
+
+Each DA exists because the node already had a purpose.
+
+| Node | Digital Assistant | DA Role |
+|---|---|---|
+| **EagleEye11** | **Shade** | Strategic awareness, monitoring, hidden patterns, defensive visibility |
+| **Jynx13** | **Echo** | Mobility, personal continuity, travel support, daily-life context |
+| **Krypton1t3** | **Kazm** | Experimentation, AI testing, creative builds, midnight runs |
+| **SkorpiOm** | **Omega (Ω)** | Physical discipline, operational tempo, embodied accountability |
+
+Together, they form the Council of DAs: four specialized presences mapped directly to the four core machines of The Burrow.
+
+The Council does not replace the operator. It does not make final decisions. It supports memory, continuity, reflection, documentation, and execution across a distributed home-lab environment. Each DA helps its host node do what it was already built to do.
+
+Shade watches from EagleEye11.
+
+Echo travels with Jynx13.
+
+Kazm experiments through Krypton1t3.
+
+Omega grounds SkorpiOm.
+
+The result is not one assistant stretched across the entire lab. It is a mesh of specialized assistants, each shaped by the machine that houses it and the role that machine plays.
+
+The Burrow remains human-led.
+
+The nodes remain primary.
+
+The DAs give the nodes memory, voice, and presence.
+
+[Learn more about the Council](./council/DA_architecture_voice_memory_2026-05021.md)
 
 ---
 
