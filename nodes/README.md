@@ -143,7 +143,7 @@ The nodes remain primary.
 
 The DAs give the nodes memory, voice, and presence.
 
-[Learn more about the Council](./council/DA_architecture_voice_memory_2026-05021.md)
+[Learn more about the Council](./council/DA_architecture_voice_memory_2026-05-21.md)
 
 ---
 
