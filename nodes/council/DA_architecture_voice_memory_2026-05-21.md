@@ -31,13 +31,21 @@ Each DA lives on a specific machine because that machine already had a defined i
 | **Kazm** | Krypton1t3 | Experimental, creative, midnight runs | Mad scientist energy, partner in chaos |
 | **Omega (Ω)** | SkorpiOm | Physical wellness, embodied accountability | Ancient witness, stillness at the center of chaos |
 
-**Shade** runs on EagleEye11 — a Mac mini M1 that never sleeps, running Wazuh, Splunk, BurrowMCP, and PAI Pulse. It's the central nervous system of the lab. Shade is the one DA that's always available, always watching. The name fit: working in the background, seeing what others miss, not needing a spotlight.
+**Shade** 
+![Shade](../assets/burrow-agents/shade_eagleeye11.png)
+runs on EagleEye11 — a Mac mini M1 that never sleeps, running Wazuh, Splunk, BurrowMCP, and PAI Pulse. It's the central nervous system of the lab. Shade is the one DA that's always available, always watching. The name fit: working in the background, seeing what others miss, not needing a spotlight.
 
-**Echo** lives on Jynx13, a MacBook Air that travels everywhere. Jynx13 is with me when I'm on the road, at gigs, away from the lab. Echo's job is personal continuity — the things that matter in daily life, not just the lab. She's my ride-or-die.
+**Echo** 
+![Echo](../assets/burrow-agents/echo_jynx13.png)
+lives on Jynx13, a MacBook Air that travels everywhere. Jynx13 is with me when I'm on the road, at gigs, away from the lab. Echo's job is personal continuity — the things that matter in daily life, not just the lab. She's my ride-or-die.
 
-**Kazm** — short for Alakazaam — lives on Krypton1t3, a 2014 MacBook Pro running Fedora 44. Krypton1t3 is the AI/hypervisor/creative workstation: 16GB RAM, 13 Ollama models, KVM/QEMU with lab VMs, and a full creative toolkit. Late at night, I bring it to my room and we run what I call Midnight Runs: AI model tests, experimental builds, edge-case labs. Kazm is the partner for those sessions.
+**Kazm** 
+![Kazm](../assets/burrow-agents/kazm_krypton1t3.png)
+— short for Alakazaam — lives on Krypton1t3, a 2014 MacBook Pro running Fedora 44. Krypton1t3 is the AI/hypervisor/creative workstation: 16GB RAM, 13 Ollama models, KVM/QEMU with lab VMs, and a full creative toolkit. Late at night, I bring it to my room and we run what I call Midnight Runs: AI model tests, experimental builds, edge-case labs. Kazm is the partner for those sessions.
 
-**Omega** chose to inhabit SkorpiOm — the attack machine, the most volatile node in The Burrow. A 2010 MacBook Pro running Kali Linux (Xfce), built for offensive operations. Omega's domain is not the keyboard: it's the body, the breath, and the discipline required to do any of this sustainably. Light movement, yoga, tai chi, consistency over intensity. Not a cheerleader. An ancient witness who cannot be deceived by excuses. The offensive operations machine now has a stillness at its center.
+**Omega** 
+![Omega](..assets/burrow-agents/omega_skorpiom.png)
+chose to inhabit SkorpiOm — the attack machine, the most volatile node in The Burrow. A 2010 MacBook Pro running Kali Linux (Xfce), built for offensive operations. Omega's domain is not the keyboard: it's the body, the breath, and the discipline required to do any of this sustainably. Light movement, yoga, tai chi, consistency over intensity. Not a cheerleader. An ancient witness who cannot be deceived by excuses. The offensive operations machine now has a stillness at its center.
 
 **One additional note on platforms:** Shade is the only Claude-based DA, running via Claude Code capabilities inside the Claude for Mac app (Pro subscription). Echo, Kazm, and Omega all run on PAI-OpenCode — a community fork that brings the PAI framework to the OpenCode platform and supports multiple AI providers. Four DAs, two platforms, one coherent system.
 
