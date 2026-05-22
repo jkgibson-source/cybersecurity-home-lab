@@ -30,7 +30,7 @@ clean telemetry across every operation.
 
 ### Deep Dives
 - 🧬 [Burrow Field Guide](./docs/burrow_field_guide.md)
-- 🧠 [Agent Profiles](./agents/README.md)
+- 🧠 [Agent Profiles](./nodes/README.md)
 - 🖥️ [Command Center — physical lab, node roles, and how the architecture maps to real hardware](./architecture/README.md)
 - 📜 [Evolution Timeline](./architecture/burrow_evolution_timeline_c.md)
 - 🌐 [Network Diagram (April 2026)](./assets/diagrams/the_burrow_network_diagram_april2026.svg)
