@@ -160,9 +160,32 @@ The `docs/` folder has a full build log — every session, every decision, every
 
 | Doc | What happened |
 |-----|---------------|
-| `BurrowMCP-00-Architecture.md` | System design and principles |
-| `BurrowMCP-01` through `BurrowMCP-10` | Node onboarding, SSH setup, tool builds, Wazuh/Splunk integration |
-| `BurrowMCP-11-Session11.md` | Dashboard build — auth, API layer, mobile HTML, Splunk Free, PWA |
+| [BurrowMCP-00-Architecture.md](docs/BurrowMCP-00-Architecture.md) | Defined the system architecture, tool tiers, node topology, and security philosophy before writing a single line of code. |
+| [BurrowMCP-01-Session1.md](docs/BurrowMCP-01-Session1.md) | Set up the Python 3.11 environment, installed the MCP SDK, and got a minimal BurrowMCP server starting cleanly on EagleEye11. |
+| [BurrowMCP-02-Session2.md](docs/BurrowMCP-02-Session2.md) | Wired BurrowMCP into Claude Desktop and confirmed the first end-to-end tool call from Claude to the lab. |
+| [BurrowMCP-03-Session3.md](docs/BurrowMCP-03-Session3.md) | Replaced hardcoded stubs with live Tailscale ping logic, wrote `config.py`, and moved tool logic into proper modules. |
+| [BurrowMCP-04-Session4.md](docs/BurrowMCP-04-Session4.md) | Distributed SSH keys to all remote nodes and built the first live SSH tools: `get_node_info()`, `check_disk_space()`, and `check_failed_services()`. |
+| [BurrowMCP-05-Session5.md](docs/BurrowMCP-05-Session5.md) | Built the structured logging pipeline, added `splunk_search()`, distributed the SSH key to Jynx13, and fixed the `df` macOS incompatibility. |
+| [BurrowMCP-06-Session6.md](docs/BurrowMCP-06-Session6.md) | Implemented `get_wazuh_alerts()` via `docker exec` into the Wazuh manager container and confirmed live alert data flowing through Claude Desktop. |
+| [BurrowMCP-07-Session7.md](docs/BurrowMCP-07-Session7.md) | Reconnected all four Wazuh agents (version mismatch + Tailscale IP fix) and resolved the Twingate/Tailscale routing conflict on Krypton1t3. |
+| [BurrowMCP-08-Session8.md](docs/BurrowMCP-08-Session8.md) | Diagnosed and neutralized the Twingate zombie restart loop on Krypton1t3, completed SSH key distribution, and got BurrowVoice launching apps across all nodes. |
+| [BurrowMCP-09-Session9.md](docs/BurrowMCP-09-Session9.md) | Migrated BurrowMCP to SSE transport and established a Cloudflare tunnel, laying the groundwork for remote mobile access. |
+| [BurrowMCP-10-Session10.md](docs/BurrowMCP-10-Session10.md) | Deployed BurrowMCP on Jynx13 as a fully operational travel/commander node using stdio mode over the Tailscale mesh. |
+| [BurrowMCP-11-Session11.md](docs/BurrowMCP-11-Session11.md) | Got Splunk accessible from Jynx13 via SSH tunnel to EagleEye11, maintaining the zero-open-ports security model. |
+| [BurrowMCP-12-Session12.md](docs/BurrowMCP-12-Session12.md) | Established Jynx13 ↔ Krypton1t3 SSH connectivity and tuned WatchYourLAN to stop dropping Tailscale nodes. |
+| [BurrowMCP-13-Session13.md](docs/BurrowMCP-13-Session13.md) | Audited SkorpiOm's Splunk forwarder, created a dedicated `wazuh` index, and wired Wazuh alerts into Splunk. |
+| [BurrowMCP-14-Session14.md](docs/BurrowMCP-14-Session14.md) | Fixed `splunk_tools.py` on both nodes, configured BurrowMCP to auto-start via launchd, and built the Wazuh dashboard in Splunk. |
+| [BurrowMCP-15-Session15.md](docs/BurrowMCP-15-Session15.md) | Built and deployed `run_burrow_command()` — a whitelisted, safety-gated remote command execution pipeline — on Jynx13. |
+| [BurrowMCP-16-Session16.md](docs/BurrowMCP-16-Session16.md) | First full session commanding the lab from Jynx13; fixed the self-reporting status bug and hardened SkorpiOm's unattended remote access. |
+| [BurrowMCP-17-Session17.md](docs/BurrowMCP-17-Session17.md) | Completed Krypton1t3 auto-login via LightDM and built the OAuth + SSE stack for Claude Mobile, stopping at the domain routing wall. |
+| [BurrowMCP-18-Session18.md](docs/BurrowMCP-18-Session18.md) | Handoff doc capturing the full Cloudflare tunnel / OAuth / SSE state and the specific MCP host-header validation blocker to solve next. |
+| [BurrowMCP-19-Session19.md](docs/BurrowMCP-19-Session19.md) | Solved the MCP host-header validation blocker and got OAuth + SSE working end-to-end through the Cloudflare tunnel for Claude Mobile. |
+| [BurrowMCP-20-Session20.md](docs/BurrowMCP-20-Session20.md) | Fixed Jynx13's Krypton1t3 SSH failure (wrong service account), confirmed Splunk's migration to the free tier, and resolved SkorpiOm's cosmetic networking failure. |
+| [BurrowMCP-21-Session21.md](docs/BurrowMCP-21-Session21.md) | Fixed `splunk_tools.py` after the REST API hit the Splunk Free license wall, resolved a license violation from over-ingestion, and brought Krypton1t3's forwarder under full remote control. |
+| [BurrowMCP-22-Session22.md](docs/BurrowMCP-22-Session22.md) | Built and shipped the mobile web dashboard at `theburrow.dev` — node status, Wazuh alerts, and Splunk search — and wired BurrowMCP into Claude for Mac/iOS via Dispatch. |
+| [BurrowMCP-Jynx13-Handoff.md](docs/BurrowMCP-Jynx13-Handoff.md) | Migration handoff document cataloging known EagleEye11-specific artifacts and the SSH service-account bug to resolve when deploying BurrowMCP on Jynx13. |
+| [BurrowMCP-Tool_List.md](docs/BurrowMCP-Tool_List.md) | Quick-reference card of all BurrowMCP tools and the natural-language prompts to invoke them through Claude Desktop. |
+| [BurrowMCP_planning_summary.md](docs/BurrowMCP_planning_summary.md) | Original pre-project planning document defining the core concept, guiding principles, and tiered tool architecture before any code was written. |
 
 ---
 
