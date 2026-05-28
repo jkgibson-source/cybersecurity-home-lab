@@ -40,6 +40,25 @@ All lab work follows a structured Git workflow for clean version history and rep
 
 ---
 
+## 📋 Table of Contents
+
+- [Lab Infrastructure](#️-lab-infrastructure)
+- [Skills Demonstrated](#️-skills-demonstrated)
+- [Projects](#-projects)
+  - [1. Home Lab Build](#1-home-lab-build)
+  - [2. Metasploitable 2 — Penetration Test](#2-metasploitable-2--penetration-test)
+  - [3. Network Traffic Analysis](#3-network-traffic-analysis)
+  - [4. Splunk SIEM Deployment](#4-splunk-siem-deployment)
+  - [5. iOS Digital Forensics](#5-ios-digital-forensics)
+  - [6. Application Behavioral Analysis — Pi Network Node](#6-application-behavioral-analysis--pi-network-node)
+  - [7. AI-Assisted Red Team Pipeline](#7-ai-assisted-red-team-pipeline-in-progress)
+  - [8. BurrowMCP — Custom MCP Server & Lab Dashboard](#8-burrowmcp--custom-mcp-server--lab-dashboard)
+- [Learning Platforms & Coursework](#-learning-platforms--coursework)
+- [Certifications](#-certifications)
+- [Tools & Technologies](#-tools--technologies)
+
+---
+
 ## 🖥️ Lab Infrastructure
 
 ### Machines
@@ -334,6 +353,18 @@ Splunk (kill-chain monitoring)
 ```
 
 **Tools:** Ollama, MetasploitMCP, Metasploit Framework, Python, Splunk
+
+---
+
+### 8. BurrowMCP — Custom MCP Server & Lab Dashboard
+
+**Status:** ✅ Live
+
+A custom MCP server and mobile-first web dashboard built from scratch for remote lab management. Gives Claude real-time SSH access to all four Burrow nodes over Tailscale. Accessible from anywhere via Cloudflare tunnel at `theburrow.dev`. Two modes: MCP server for Claude Desktop/iOS, and a standalone web dashboard for phone-based control with no AI session required.
+
+→ **[Full documentation and build log](tools/BurrowMCP/README.md)**
+
+**Tools:** Python, Starlette, Tailscale, Cloudflare Tunnel, Wazuh, Splunk, SSH
 
 ---
 
