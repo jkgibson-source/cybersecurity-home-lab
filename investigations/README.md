@@ -58,13 +58,14 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 - [CVE 2026-31635 DirtyDecrypt](./incident-response/CVE-2026-31635-DirtyDecrypt/README.md)
 - [CVE 2026-43284 CVE 2026-43500 Dirty Frag](./incident-response/CVE-2026-43284_CVE-2026-43500_dirty.frag/README.md)
 - [CVE 2026-46333-ssh-keysign-pwn](./incident-response/CVE-2026-46333-ssh-keysign-pwn/README.md)
+- [CVE 2026-46300 CIFSwitch](./incident-response/CVE-2026-46300_CIFSwitch/investigation_2026-06-01_CIFSwitch.md)
   
 ---
 
 ### 🧪 Lab Notes
-- Ongoing experiments and preliminary testing  
-- See: [`lab-notes/`](./lab-notes/)
-
+- [Kazm Convo — Memory & Temps](./lab-notes/report_2026-06-09_kazm-convo-memory-temps.md)
+- [Kazm + JBird Full Conversation](./lab-notes/report_2026-06-10_Kazm-JBird-full-convo.md)
+- [Evan Practice Analysis](./lab-notes/report_2026-06-13_evan-prac-analysis.md)
 ---
 
 ## 🧠 Methodology
