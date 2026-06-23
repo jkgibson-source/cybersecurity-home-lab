@@ -66,6 +66,7 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 - [Kazm Convo — Memory & Temps](./lab-notes/report_2026-06-09_kazm-convo-memory-temps.md)
 - [Kazm + JBird Full Conversation](./lab-notes/report_2026-06-10_Kazm-JBird-full-convo.md)
 - [Evan Practice Analysis](./lab-notes/report_2026-06-13_evan-prac-analysis.md)
+
 ---
 
 ## 🧠 Methodology
