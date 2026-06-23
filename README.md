@@ -197,6 +197,9 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 ---
 
 ## 🔧 Featured Builds
+
+📂 [View All Builds](./builds/README.md)
+
 - [KryptStick: Encrypted Persistent Multi-Boot Toolkit](./builds/kryptstick_persistent-multiboot.md)
 - [KryptStick Upgrade Addendum!](./builds/kryptstick-addendum-2026-05-01.md)
 - [SuperStick: Encrypted Persistent Multi-Boot Toolkit](./builds/superstick-build-report.md)
