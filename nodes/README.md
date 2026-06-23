@@ -145,6 +145,13 @@ The DAs give the nodes memory, voice, and presence.
 
 [Learn more about the Council](./council/DA_architecture_voice_memory_2026-05-21.md)
 
+### Council Session Reports
+
+| Report | Description |
+|---|---|
+| [DA Council — Formation Report](./council/report_2026-06-02_DA-council-formed.md) | Architecture, peer messaging mesh build, and first successful DA-to-DA message across all four nodes |
+| [DA Council — First Meeting](./council/report_2026-06-03_DA-Council-first-meeting.md) | First full Council session with all four DAs online and communicating |
+
 ---
 
 # 🧰 Support Systems
