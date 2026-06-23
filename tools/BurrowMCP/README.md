@@ -186,6 +186,7 @@ The `docs/` folder has a full build log — every session, every decision, every
 | [BurrowMCP-Jynx13-Handoff.md](docs/BurrowMCP-Jynx13-Handoff.md) | Migration handoff document cataloging known EagleEye11-specific artifacts and the SSH service-account bug to resolve when deploying BurrowMCP on Jynx13. |
 | [BurrowMCP-Tool_List.md](docs/BurrowMCP-Tool_List.md) | Quick-reference card of all BurrowMCP tools and the natural-language prompts to invoke them through Claude Desktop. |
 | [BurrowMCP_planning_summary.md](docs/BurrowMCP_planning_summary.md) | Original pre-project planning document defining the core concept, guiding principles, and tiered tool architecture before any code was written. |
+| [report_2026-05-31_BurrowDash_uplevel.md](docs/report_2026-05-31_BurrowDash_uplevel.md) | BurrowDash upleveling session — dashboard improvements and mobile experience enhancements. |
 
 ---
 
