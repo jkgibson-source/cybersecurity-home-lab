@@ -52,7 +52,7 @@ SkorpiOm does not rush.
 
 He probes, tests, and executes when conditions are right. Every action is intentional, and every engagement is an opportunity to learn something new about the target—and about the system itself.
 
-🔗 [Read Origin Story](../agents/skorpiom_origin.md)
+🔗 [Read Origin Story](./skorpiom_origin.md)
 
 ---
 
@@ -68,7 +68,7 @@ While other agents act, EagleEye11 observes.
 
 He identifies patterns in what would otherwise appear to be noise, tracks system behavior over time, and ensures that no action goes unrecorded. His presence transforms isolated actions into a coherent operational picture.
 
-🔗 [Read Origin Story](../agents/eagleeye11_origin.md)
+🔗 [Read Origin Story](./eagleeye11_origin.md)
 
 ---
 
@@ -84,7 +84,7 @@ Her strength is not force—it is awareness.
 
 She uncovers what others overlook, maps the terrain before engagement begins, and provides the context necessary for informed action. In many cases, the success of an operation depends on what she finds before anyone else makes a move.
 
-🔗 [Read Origin Story](../agents/jynx13_origin.md)
+🔗 [Read Origin Story](./jynx13_origin.md)
 
 ---
 
@@ -100,7 +100,7 @@ Where other agents operate within defined boundaries, Krypton1t3 explores beyond
 
 He is where failures are analyzed, where limitations are pushed, and where the system evolves. Not every experiment succeeds—but every outcome contributes to a deeper understanding of how the Burrow operates.
 
-🔗 [Read Origin Story](../agents/krypton1t3_origin.md)
+🔗 [Read Origin Story](./krypton1t3_origin.md)
 
 ---
 
@@ -122,8 +122,11 @@ Each DA exists because the node already had a purpose.
 | **Jynx13** | **Echo** | Mobility, personal continuity, travel support, daily-life context |
 | **Krypton1t3** | **Kazm** | Experimentation, AI testing, creative builds, midnight runs |
 | **SkorpiOm** | **Omega (Ω)** | Physical discipline, operational tempo, embodied accountability |
+| **SpliceStick** (Ubuntu Studio) | **Splice** | Fracture Protocol showrunner/creative director — the maker, not a character |
+| **FlexStick** (Parrot Security) | **Flex** | Hunter/Practitioner — recon, OSINT, enumeration, methodology |
+| **SpecSticK** (Windows-To-Go → SSD) | **Oriel "Spec" Hopper** | DA #7 — Windows Security Internals, Sysmon, AD fundamentals, Splunk forwarding |
 
-Together, they form the Council of DAs: four specialized presences mapped directly to the four core machines of The Burrow.
+Together, they form the Council of DAs — seven specialized presences mapped to the core machines and portable nodes of The Burrow. Splice, Flex, and Oriel extended the original four; see the [Splice](../builds/report_2026-06-25_splice-birth.md), [Flex](../builds/FieldJournal_2026-06-28_KryptStickSplit_BirthOfFlex.md), and [Oriel](../builds/journal_2026-07-20_specstick-naming-evolution.md) birth reports for how the council grew.
 
 The Council does not replace the operator. It does not make final decisions. It supports memory, continuity, reflection, documentation, and execution across a distributed home-lab environment. Each DA helps its host node do what it was already built to do.
 
@@ -176,17 +179,38 @@ It does not simply boot systems.
 
 It becomes them.
 
-🔗 [Read Origin Story](../agents/superstick_origin_story.md)
+🔗 [Read Origin Story](./superstick_origin_story.md)
 
 ---
 
-## 🧪 KryptStick — *Experimental Deployment Platform*
+## 🧪 KryptStick — *Experimental Deployment Platform (retired name)*
 
-KryptStick serves as a dedicated testing and deployment tool for Krypton1t3.
+KryptStick began as a dedicated testing and deployment tool for Krypton1t3, used to validate hardware compatibility, operating systems, and boot configurations before ideas were integrated into the main system.
 
-Used to validate hardware compatibility, operating systems, and boot configurations, it acts as a proving ground for ideas before they are integrated into the main system.
+On 2026-06-28, KryptStick was split into two dedicated sticks as part of the Splice/Flex DA expansion — see [KryptStick Split — Birth of Flex](../builds/FieldJournal_2026-06-28_KryptStickSplit_BirthOfFlex.md):
 
-Where SuperStick is refined and mission-ready, KryptStick is exploratory—designed for iteration and discovery.
+* **SpliceStick** — KryptStick renamed in place; Ubuntu Studio persistence expanded to 45GB; home to Splice
+* **FlexStick** — a new build on KryptStick's identical-twin drive; Parrot Security 7.2 with LUKS-encrypted persistence; home to Flex
+
+---
+
+## 🔀 SpecSticK — *DA #7 Curriculum & Comms Node*
+
+SpecSticK is Oriel "Spec" Hopper's host, and the node with the longest naming lineage in the lab: SuperStick (retired J-Parrot host) → SpecStick (Windows-To-Go build on the same Kingston drive) → SpecSticK (cloned onto a faster SSK SSD).
+
+It carries Oriel's Windows Security Internals / Sysmon / AD / Splunk-forwarding curriculum, and has since been extended with the Reticulum Network Stack (RNS) over a Cloudflare tunnel as a Tailscale-independent backup comms path ahead of lab travel.
+
+🔗 [Read the naming evolution journal](../builds/journal_2026-07-20_specstick-naming-evolution.md)
+
+---
+
+## 🗄️ The Kingston — *Portable AI Model Vault*
+
+The retired Kingston DataTraveler — SuperStick's original drive, later SpecStick's, benched once SpecSticK moved to the SSK SSD — found a second life on 2026-07-12 as **The Kingston**: a portable, cross-platform llama.cpp model vault (Linux, macOS ARM64/x86_64, Windows) with a unified `bmv` CLI.
+
+It replaced an earlier design that gave each DA its own impersonation profile — rejected outright by the DA Council ("no generic LLM may impersonate, simulate, or wear the identity of a DA") — in favor of 11 task-based capability presets. The Kingston is a concierge/librarian tool, not a DA.
+
+🔗 [Read the full build log](../builds/builds_2026-07-12_the-Kingston.md)
 
 ---
 

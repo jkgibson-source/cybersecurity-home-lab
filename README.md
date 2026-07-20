@@ -208,6 +208,8 @@ Explore hands-on cybersecurity investigations conducted in **The Burrow**:
 - [Hermes Forge Local AI Deployment](./builds/hermes_forge_krypton1t3.md)
 - [Wazuh Deployment Case Study](./builds/wazuh_portfolio_case_study.md)
 - [Krypton1t3 OS Migration Report](./builds/Krypton1t3_Migration_Report_e.md)
+- [KryptStick Split — Birth of Flex](./builds/FieldJournal_2026-06-28_KryptStickSplit_BirthOfFlex.md)
+- [The Kingston — Portable AI Model Vault](./builds/builds_2026-07-12_the-Kingston.md)
 
 ---
 

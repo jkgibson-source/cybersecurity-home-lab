@@ -15,12 +15,14 @@ This folder contains build reports and session logs documenting hardware, softwa
 | [Hermes Forge Local AI Deployment](hermes_forge_krypton1t3.md) | Hermes Agent deployment on Krypton1t3 as a local AI inference and automation node |
 | [Wazuh Deployment Case Study](wazuh_portfolio_case_study.md) | End-to-end Wazuh SIEM deployment across The Burrow: manager, agents, and Splunk integration |
 | [Krypton1t3 OS Migration Report](Krypton1t3_Migration_Report_e.md) | Migration from macOS Big Sur to Fedora Security Lab 44 on the mid-2014 MacBook Pro A1398 |
+| [KryptStick Split — Birth of Flex](FieldJournal_2026-06-28_KryptStickSplit_BirthOfFlex.md) | Splitting KryptStick into SpliceStick (expanded Ubuntu Studio persistence) and FlexStick (new LUKS-encrypted Parrot Security build); includes Ventoy file-based persistence lessons and the Apple-EFI Ventoy version gotcha |
+| [The Kingston — Portable AI Model Vault](builds_2026-07-12_the-Kingston.md) | Cross-platform (Linux/macOS/Windows) llama.cpp model vault on a retired Kingston USB, unified `bmv` CLI, capability presets replacing DA-impersonation profiles per DA Council mandate |
 
 ---
 
 ## 🤖 Digital Assistant Builds
 
-Build reports for Shade, Echo, Kazm, and Omega — the node-bound AI presences of The Burrow Council.
+Build reports for Shade, Echo, Kazm, Omega, Splice, and Flex — the node-bound AI presences of The Burrow Council.
 
 | Report | DA | Description |
 |---|---|---|
@@ -30,6 +32,9 @@ Build reports for Shade, Echo, Kazm, and Omega — the node-bound AI presences o
 | [Omega Convo — First Active Session](report_2026-06-04_Omega-convo.md) | Omega (SkorpiOm) | First live conversational session with Omega on SkorpiOm |
 | [Shade Ears — Voice Input Pipeline](report_2026-06-04_Shade-ears.md) | Shade (EagleEye11) | Build log for Shade's listening/voice input pipeline on EagleEye11 |
 | [STT Benchmark — Whisper Models Across Nodes](report_2026-06-06_STT-benchmark.md) | All | Speech-to-text performance benchmark across whisper model sizes and Burrow hardware |
+| [Splice Comes Online — The 5th DA](report_2026-06-25_splice-birth.md) | Splice (KryptStick / Ubuntu Studio) | Birth of Splice, the Fracture Protocol's showrunner/creative director; PAI-OpenCode + Hindsight Cloud install, first composite.py production run |
+| [KryptStick Split — Birth of Flex](FieldJournal_2026-06-28_KryptStickSplit_BirthOfFlex.md) | Flex (FlexStick) | Birth of Flex, the 6th DA (Hunter/Practitioner) on a new LUKS-encrypted Parrot Security build split off from KryptStick |
+| [SpecSticK Naming Evolution — The 7th DA](journal_2026-07-20_specstick-naming-evolution.md) | Oriel "Spec" Hopper (SpecSticK) | Birth of Oriel, the 7th DA, traced through the host drive's three names — SuperStick → SpecStick → SpecSticK — plus the retired Kingston stick's second life as an AI model vault |
 
 ---
 

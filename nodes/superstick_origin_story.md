@@ -214,6 +214,8 @@ It took a failed 1TB drive, an all-night `dd` wipe, a LUKS version incompatibili
 The SuperStick isn't just a tool.
 It's part of the crew.
 
+*The SuperStick's story continues — the same Kingston drive went on to become SpecStick, then SpecSticK, and eventually "The Kingston" AI model vault. See the [SpecSticK naming evolution journal](../builds/journal_2026-07-20_specstick-naming-evolution.md).*
+
 ---
 
 *The Burrow — Miami, FL*
