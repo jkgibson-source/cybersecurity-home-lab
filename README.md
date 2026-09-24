@@ -40,6 +40,16 @@ All lab work follows a structured Git workflow for clean version history and rep
 
 ---
 
+## 📝 Recent Lab Reports
+
+- **2026-09-23:** [SSK Portable SSD Failure Investigation](./investigations/dfir/report_2026-09-23_SSK-SSD-consolidated.md) — Cross-platform failure evidence and incomplete sanitization assessment
+- **2026-09-15–16:** [EagleEye11 — Fedora Asahi Remix Dual-Boot](./builds/journal_2026-09-15_Fedora-Asahi-Remix.md) — Backup recovery, APFS resizing, and Linux on Apple Silicon
+- **2026-09-11:** [SpecSticK Windows 11 Restore](./builds/journal_2026-09-11_specstick-win11-restore.md) — Oriel, PAI-OpenCode, Hindsight, and application restoration
+- **2026-09-01:** [InterGenOS on Kingston — Birth of Gauge](./builds/report_2026-09-01_Birth-of-Gauge_InterGenOS-installation.md) — Encrypted portable Linux with Apple boot and Broadcom Wi-Fi troubleshooting
+- **2026-07-26:** [EagleEye11 Airborne Recon](./investigations/network-analysis/report_2026-07-26_fly-scan.md) — Remote service enumeration over Tailscale from in-flight Wi-Fi
+
+---
+
 ## 📋 Table of Contents
 
 - [Lab Infrastructure](#️-lab-infrastructure)

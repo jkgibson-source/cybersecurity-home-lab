@@ -17,6 +17,9 @@ This folder contains build reports and session logs documenting hardware, softwa
 | [Krypton1t3 OS Migration Report](Krypton1t3_Migration_Report_e.md) | Migration from macOS Big Sur to Fedora Security Lab 44 on the mid-2014 MacBook Pro A1398 |
 | [KryptStick Split — Birth of Flex](FieldJournal_2026-06-28_KryptStickSplit_BirthOfFlex.md) | Splitting KryptStick into SpliceStick (expanded Ubuntu Studio persistence) and FlexStick (new LUKS-encrypted Parrot Security build); includes Ventoy file-based persistence lessons and the Apple-EFI Ventoy version gotcha |
 | [The Kingston — Portable AI Model Vault](builds_2026-07-12_the-Kingston.md) | Cross-platform (Linux/macOS/Windows) llama.cpp model vault on a retired Kingston USB, unified `bmv` CLI, capability presets replacing DA-impersonation profiles per DA Council mandate |
+| [InterGenOS on Kingston — Birth of Gauge](report_2026-09-01_Birth-of-Gauge_InterGenOS-installation.md) | Encrypted portable Linux build on KingstonBMV, including Apple boot support, kernel module troubleshooting, Broadcom Wi-Fi, and remote access |
+| [SpecSticK Windows 11 Restore](journal_2026-09-11_specstick-win11-restore.md) | Restoring Oriel, PAI-OpenCode, Hindsight, applications, and terminal configuration after the Windows 11 migration |
+| [EagleEye11 Dual-Boot — Fedora Asahi Remix](journal_2026-09-15_Fedora-Asahi-Remix.md) | Backup recovery, APFS partition resizing, and Fedora Asahi Remix installation on the Mac mini M1 |
 
 ---
 

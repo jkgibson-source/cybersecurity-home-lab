@@ -24,6 +24,7 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 
 ### 🔍 DFIR (Digital Forensics & Incident Response)
 - [Windows 7 Offline Data Recovery](./dfir/windows7_offline_data_recovery.md)
+- [SSK Portable SSD — Consolidated Failure Report](./dfir/report_2026-09-23_SSK-SSD-consolidated.md) — Cross-platform failure evidence, incomplete sanitization, and credential exposure assessment
 
 ---
 
@@ -31,6 +32,7 @@ Each investigation reflects real-world techniques across multiple domains, inclu
 - [Splunk Forwarder Network Incident](./network-analysis/splunk-forwarder-network-incident/splunk_forwarder_network_segmentation_case_study.md)
 
 - [AnonSurf DNS Failure (Parrot OS Live)](./network-analysis/anonsurf_dns_failure_burrow.md)
+- [EagleEye11 Airborne Recon](./network-analysis/report_2026-07-26_fly-scan.md) — Remote service enumeration over Tailscale from in-flight Wi-Fi
 
 ---
 
