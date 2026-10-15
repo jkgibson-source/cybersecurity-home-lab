@@ -127,6 +127,21 @@ environment, on silicon never designed to carry it.
 | **PlayStation4** | Sony PS4 Slim (~2013 AMD Jaguar, Belize southbridge) | CachyOS Linux - Linux-on-console experiment and digital memorial; home of the Jagg3r DA |
 | **Luck13** | Motorola Moto G Power 5G (2024, Android 15) | Debian 13 "trixie" via Termux/PRoot (XFCE over VNC) - smartphone microDA node; home of Clover |
 
+### Microcontroller & Mesh Nodes
+
+Embedded vessels that push the Burrow off the general-purpose machines and onto bare
+silicon - sensors, off-grid mesh, and companions to the larger nodes.
+
+| Node | Hardware | Role / Status |
+| --- | --- | --- |
+| **Tr1K3Y** ("Tricky") | LilyGo T-Dongle-S3 - ESP32-S3, 16 MiB flash, 512 KiB SRAM (no PSRAM), 0.96" ST7735, Wi-Fi b/g/n + BLE 5, micro-SD, QWIIC/I²C | Off-grid Geogram mesh node (device code LT1) and sensor platform; wireless companion to Luck13. **Intake / baseline.** Tended by Quick. |
+
+> **Tr1K3Y baseline.** A factory flash image and eFuse summary were captured at intake
+> (2026-10-09) and archived locally, outside this repo (the 16 MiB image and raw fuse
+> data don't belong in Git). Referenced here by checksum:
+> - `Tr1K3Y_factory_16MB.bin` - SHA-256 `769af855058cfb43c96d5ffa63ba32a54c03cd41805ba1a033456bec2dc454de`
+> - `efuse_baseline.txt` - SHA-256 `4785a1a709258843b78f93e49e1d8ed86e3d619392599993e390824c34c38c9a`
+
 ### Network & Remote Access
 
 | Technology | Purpose | Scope |
