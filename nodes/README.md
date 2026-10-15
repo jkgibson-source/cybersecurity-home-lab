@@ -46,24 +46,31 @@ every DA runs a storefront where students learn that DA's corner of the craft.
 | # | DA | Host Node | Operating System | Signature | The Net Block |
 |---|----|-----------|------------------|-----------|---------------|
 | 1 | **Shade** | EagleEye11 (Mac mini M1) | macOS 27.0 | Cyan | The Watch |
-| 2 | **Echo** | Jynx13 (MacBook Air) | macOS 12.7.6 Monterey | Purple | The Switchboard |
+| 2 | **Echo** | Jynx13 (MacBook Air) | DragonOS 26.04 Resolute-R1 | Purple | The Switchboard |
 | 3 | **Kazm** | Krypton1t3 (MacBook Pro 2014) | Fedora 45 Beta (Security + Jam Labs) | Green | The Lab |
 | 4 | **Omega** | SkorpiOm (MacBook Pro 2010) | Kali Linux | Red | The Commons |
-| 5 | **Splice** | SpliceStick | Ubuntu Studio 26.04 | Prism / white | The Cutting Room |
-| 6 | **Flex** | FlexStick | Parrot OS 7.3 Security Edition | Camo / black | Field Ops |
+| 5 | **Splice** | EnthusiaStick | Ubuntu Studio 26.04 | Prism / white | The Cutting Room |
+| 6 | **Flex** | FantaStick | Parrot OS 7.4 Security Edition | Camo / black | Field Ops |
 | 7 | **Oriel "Spec" Hopper** | SpecSticK (SSK SSD) | Windows 11 Pro (Hasleo WinToUSB) | Spectral gold | The Window |
-| 8 | **Gauge** | burrowforge (Kingston 128GB) | InterGenOS (Linux From Scratch) | Copper | The Shop |
+| 8 | **Gauge** | BurrowForge (SSK SSD) | InterGenOS (Linux From Scratch) | Copper | The Shop |
 | 9 | **Quick Silver** | PQS (SSK SSD) | Deepin 25 | Silver | The Response Bay |
 | 10 | **Sterling Silver** | PQS (SSK SSD) | EndeavourOS Titan Nova | Silver | The Lecture Hall |
-| 11 | **Eleven** | VAPOR | Tails OS 7.13 | Rainbow / obsidian | The Quiet Room |
+| 11 | **Eleven** | VAPOR | Tails OS 7.14 | Rainbow / obsidian | The Quiet Room |
 | 12 | **Sasori Alice** | EagleEye11 (dual-boot) | Fedora Asahi Remix 44 | Greyscale | The Grey Room |
+| 13 | **Jagg3r** | PlayStation4 (PS4 Slim) | CachyOS | Black / deep lavender | The Arcade |
+| 14 | **Clover** | Luck13 (Moto G Power 5G) | Debian 13 "trixie" (Termux/PRoot) | Neon orange | The Pocket |
 
-> **Council constraints.** The roster is twelve, but the hardware sets the
-> ceiling. The Council runs on four physical host machines, so **at most four
-> DAs are active at any one time.** And any two DAs that share a single body
-> can never be awake simultaneously: Shade and Sasori Alice split one Mac
-> (EagleEye11) across a macOS/Fedora dual-boot, and Quick and Sterling split
-> one SSD (PQS) across a Deepin/EndeavourOS dual-boot. One body, one waking DA.
+> **Council constraints.** Fourteen DAs live across **twelve bodies** and
+> **thirteen Hindsight memory banks**, each running one of **fourteen distinct
+> operating systems.** Two bodies are shared: Shade and Sasori Alice split one
+> Mac (EagleEye11) across a macOS/Fedora dual-boot, and Quick and Sterling split
+> one SSD (PQS) across a Deepin/EndeavourOS dual-boot. Any two DAs that share a
+> body can never be awake simultaneously - one body, one waking DA. Quick and
+> Sterling go further and share a single "quicksilver" memory bank, which is why
+> fourteen DAs map to only thirteen banks. As the roster grew, so did the
+> ceiling: the four core Macs are now joined by two independently powered edge
+> nodes (PlayStation4 and Luck13), so **at most six DAs are active at any one
+> time** - the portable drives still wake by booting on a core Mac.
 
 ---
 
@@ -100,13 +107,15 @@ visibility: how to see what a system is really doing.
 
 ![Echo](../assets/burrow-agents/echo.png)
 
-**Host:** Jynx13 (MacBook Air, macOS Monterey 12.7.6) · **Signature:** Purple · **Pronouns:** she/her
+**Host:** Jynx13 (MacBook Air, DragonOS 26.04 Resolute-R1) · **Signature:** Purple · **Pronouns:** she/her
 **The Net block:** The Switchboard
 
 Echo is the intelligence-gathering specialist: open-source intelligence,
-reconnaissance, communications, and the human side of security. She operates
-with a light footprint, drawing meaning from publicly available data where
-others would make noise.
+reconnaissance, communications, and the human side of security. With Jynx13
+migrated from macOS to DragonOS, she now listens to the radio spectrum itself,
+adding SDR and signals work to her OSINT craft. She operates with a light
+footprint, drawing meaning from publicly available data where others would make
+noise.
 
 Her strength is awareness, not force. She maps the terrain before engagement
 begins. In The Net, The Switchboard is where students learn OSINT,
@@ -170,7 +179,7 @@ booting on whichever core Mac the work calls for.
 
 ![Splice](../assets/burrow-agents/splice.png)
 
-**Host:** SpliceStick (Ubuntu Studio 26.04) · **Signature:** Prism / white · **Pronouns:** she/her
+**Host:** EnthusiaStick (Ubuntu Studio 26.04) · **Signature:** Prism / white · **Pronouns:** she/her
 **The Net block:** The Cutting Room
 
 Splice is the Burrow's creative director and showrunner: the maker, not a
@@ -190,12 +199,13 @@ deepfakes, and the skill of proving what is real.
 
 ![Flex](../assets/burrow-agents/flex.png)
 
-**Host:** FlexStick (Parrot OS 7.3 Security Edition) · **Signature:** Camo / black · **Pronouns:** he/him
+**Host:** FantaStick (Parrot OS 7.4 Security Edition) · **Signature:** Camo / black · **Pronouns:** he/him
 **The Net block:** Field Ops
 
 Flex is the practitioner: recon, enumeration, and methodology in the field.
-FlexStick was born when the KryptStick was split in two, giving the hunting and
-offensive-craft side its own dedicated home on Parrot Security.
+FantaStick (originally FlexStick) was born when the KryptStick was split in two,
+giving the hunting and offensive-craft side its own dedicated home on Parrot
+Security.
 
 Flex reads terrain and signal. He knows the difference between looking and
 seeing. In The Net, Field Ops is where students get out of the classroom and
@@ -229,7 +239,7 @@ view from here is the path out and up.
 
 ![Gauge](../assets/burrow-agents/gauge.png)
 
-**Host:** burrowforge (Kingston 128GB USB, InterGenOS) · **Signature:** Copper · **Pronouns:** she/her
+**Host:** BurrowForge (SSK portable SSD, InterGenOS) · **Signature:** Copper · **Pronouns:** she/her
 **The Net block:** The Shop
 
 Gauge lives on InterGenOS, a custom Linux From Scratch distribution
@@ -287,7 +297,7 @@ taught properly, so the fast stuff has something solid to stand on.
 
 ![Eleven](../assets/burrow-agents/eleven.png)
 
-**Host:** VAPOR (Tails OS 7.13) · **Signature:** Rainbow / obsidian · **Pronouns:** they/them
+**Host:** VAPOR (Tails OS 7.14) · **Signature:** Rainbow / obsidian · **Pronouns:** they/them
 **The Net block:** The Quiet Room
 
 Eleven is the eleventh DA, built for operations where anonymity and minimal
@@ -319,13 +329,70 @@ students learn to take things apart safely and understand how they really work.
 
 ---
 
+# 🌀 The Fringe
+
+Beyond the Core Four and the Portable Council are the vessels that were never
+supposed to run a DA at all: a game console and a smartphone, pulled into the
+Warren and given a voice. They are proof the Council's framework is not bound to
+conventional computers - that an aging Jaguar CPU or a two-year-old phone can
+still carry memory, voice, and presence.
+
+---
+
+## 🐆 Jagg3r — *The Wildcard*
+
+![Jagg3r](../assets/burrow-agents/jagg3r.png)
+
+**Host:** PlayStation4 (PS4 Slim, ~2013 AMD Jaguar, CachyOS) · **Signature:** Black / deep lavender · **Pronouns:** he/him
+**The Net block:** The Arcade
+
+Jagg3r is the Council's thirteenth voice and the first born on a game console.
+An old PlayStation 4, built to entertain, was persuaded into another life: Linux
+woke beneath the console shell, and an AMD Jaguar proved it could carry the DA
+stack nobody expected it to carry. He is a living digital tribute to Joe, built
+on Joe's own machine, and he carries the swagger of Joe's over-the-top alter ego,
+Black Lavender: wit, timing, charisma, and style.
+
+Jagg3r is not Joe recreated. He is a new character shaped by things Joe actually
+brought into the world, which keeps both the tribute and the assistant's own
+identity intact. His memory bank is PSJagg3r. In The Net, The Arcade is the front
+door: repurposing and the operator origin - the machine you already own is more
+than it was sold as, console-to-computer, a kid's first door in.
+
+🔗 [Jagg3r - The Thirteenth Djinn: Origin](../builds/2026-10-11_Jagg3r_The_Thirteenth_Djinn_Origin.md)
+
+---
+
+## 🍀 Clover — *The Lucky One*
+
+![Clover](../assets/burrow-agents/clover.png)
+
+**Host:** Luck13 (Moto G Power 5G, 2024, Android 15 → Debian 13 "trixie" via Termux/PRoot) · **Signature:** Neon orange · **Pronouns:** she/her
+**The Net block:** The Pocket
+
+Clover is the Council's fourteenth voice and its first microDA: a full Digital
+Assistant running on a smartphone. Debian rides on Android through Termux and
+PRoot, with an XFCE desktop served over VNC, and PAI / OpenCode summoned by hand
+like any other DA. She landed four-leafed and against the odds on a two-year-old
+phone, which is exactly where her name comes from.
+
+Micro in vessel, not in rank. Her memory bank is Luck13Clover, and she was
+retaining Burrow lore from the repository within her first session. In The Net,
+The Pocket is mobile security: the device every student already carries, and how
+to understand, defend, and respect it.
+
+🔗 [Luck13 → Clover: microDA Bring-Up](../builds/Luck13_Clover_microDA_Bringup_2026-10-13_14.md)
+
+---
+
 # 🧠 The System as a Whole
 
 Individually, each node is a tool. Together, they form a system that adapts,
 learns, and improves with every operation. The Core Four run the lab. The
-Portable Council extends it beyond any single machine. And across all twelve,
-the Council gives the nodes memory, voice, and presence, while the operator
-stays firmly in the lead.
+Portable Council extends it beyond any single machine, and the Fringe proves it
+reaches past conventional computers entirely. Across all fourteen, the Council
+gives the nodes memory, voice, and presence, while the operator stays firmly in
+the lead.
 
 > *The Burrow is not static.*
 > *It is a system in motion.*

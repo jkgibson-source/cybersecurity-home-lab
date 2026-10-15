@@ -28,7 +28,7 @@ telemetry across every operation.
 ### Core Machines
 - 🦂 **SkorpiOm** (Kali Linux) - Offensive Operations, primary attacker
 - 🦅 **EagleEye11** (macOS + Fedora Asahi Remix, dual-boot) - SIEM, detection, and lab hub
-- 🎏 **Jynx13** (macOS Monterey) - OSINT, reconnaissance, and travel/field node
+- 🎏 **Jynx13** (DragonOS Resolute-R1) - OSINT, SDR, recon, and travel/field node
 - 🧪 **Krypton1t3** (Fedora 45 Beta) - R&D, virtualization, and AI experimentation
 
 ### Portable Nodes
@@ -54,6 +54,9 @@ reproducibility. See the [Burrow Git Workflow Standard](./docs/workflows/burrow_
 
 ## 📝 Recent Lab Reports
 
+- **2026-10-14:** [Jynx13 - macOS Monterey to DragonOS Resolute-R1 Migration](./builds/Jynx13-macOS-to-DragonOS-Migration-Report.md) - OS migration preserving Echo's identity, memory, and services; Jynx13 becomes an OSINT/SDR field node
+- **2026-10-13–14:** [Luck13 → Clover - microDA Bring-Up](./builds/Luck13_Clover_microDA_Bringup_2026-10-13_14.md) - A full Digital Assistant on a smartphone: Debian via Termux/PRoot, PAI/OpenCode, and Hindsight memory
+- **2026-10-11:** [Jagg3r - The Thirteenth Djinn: Origin](./builds/2026-10-11_Jagg3r_The_Thirteenth_Djinn_Origin.md) - A DA born on a repurposed PlayStation 4 (AMD Jaguar, CachyOS) as a living tribute to Joe
 - **2026-09-23:** [SSK Portable SSD Failure Investigation](./investigations/dfir/report_2026-09-23_SSK-SSD-consolidated.md) - Cross-platform failure evidence and incomplete sanitization assessment
 - **2026-09-15–16:** [EagleEye11 - Fedora Asahi Remix Dual-Boot](./builds/journal_2026-09-15_Fedora-Asahi-Remix.md) - Backup recovery, APFS resizing, and Linux on Apple Silicon
 - **2026-09-11:** [SpecSticK Windows 11 Restore](./builds/journal_2026-09-11_specstick-win11-restore.md) - Oriel, PAI-OpenCode, Hindsight, and application restoration
@@ -86,7 +89,7 @@ reproducibility. See the [Burrow Git Workflow Standard](./docs/workflows/burrow_
 | --- | --- | --- |
 | **SkorpiOm** | Apple MacBook Pro A1286 (Mid-2010) | Kali Linux (Xfce) - primary offensive / pentesting platform |
 | **EagleEye11** | Apple Mac mini M1 (2020) | macOS 27.0 + Fedora Asahi Remix 44 (dual-boot) - lab hub, Wazuh manager, Ollama, Docker, BurrowMCP |
-| **Jynx13** | Apple MacBook Air 13" (2017, Intel) | macOS Monterey 12.7.6 - OSINT, travel/field recon, BurrowMCP commander |
+| **Jynx13** | Apple MacBook Air 13" (2017, Intel) | DragonOS 26.04 Resolute-R1 - OSINT, SDR, travel and communication, BurrowMCP commander |
 | **Krypton1t3** | Apple MacBook Pro A1398 (Mid-2014) | Fedora 45 Beta (Security + Jam Labs) - hybrid AI/R&D workstation, KVM/libvirt |
 | **Target VM** | Metasploitable 2 | libvirt/VirtualBox - intentionally vulnerable target |
 
@@ -97,18 +100,32 @@ core Mac hardware. Most boot on both Krypton1t3 and Jynx13.
 
 | Node | Media | OS | Role |
 | --- | --- | --- | --- |
-| **SpliceStick** | USB (Ventoy) | Ubuntu Studio 26.04 | Creative production and media forensics workstation |
-| **FlexStick** | USB (Ventoy) | Parrot OS 7.3 Security Edition | Field ops, recon, and OSINT toolkit |
+| **EnthusiaStick** | USB (standalone) | Ubuntu Studio 26.04 | Creative production and media forensics workstation |
+| **FantaStick** | USB (standalone) | Parrot OS 7.4 Security Edition | Field ops, recon, and OSINT toolkit |
 | **SpecSticK** | SSK portable SSD | Windows 11 Pro (Hasleo WinToUSB) | Windows security internals, Sysmon, AD fundamentals |
 | **PQS** | SSK portable SSD | Deepin 25 + EndeavourOS Titan Nova (dual-boot) | AI-forward Linux workstation pair |
-| **VAPOR** | USB | Tails OS 7.13 | Privacy, anonymity, and amnesic sessions |
-| **burrowforge** | Kingston 128GB USB | InterGenOS (custom Linux From Scratch) | From-scratch build node, encrypted portable Linux |
-| **BMV** | PNY 32GB USB | Cross-platform (llama.cpp) | Portable AI model vault, plugs into any node on demand |
+| **VAPOR** | USB | Tails OS 7.14 | Privacy, anonymity, and amnesic sessions |
+| **BurrowForge** | SSK portable SSD | InterGenOS (custom Linux From Scratch) | From-scratch build node, encrypted portable Linux |
+| **KingstonBMV** | Kingston 128GB USB | Cross-platform (llama.cpp) | Portable AI model vault, plugs into any node on demand |
 
 > **Naming note:** the retired **SuperStick** and **KryptStick** names have been
-> superseded. KryptStick was split into **SpliceStick** and **FlexStick** on
-> 2026-06-28; the SuperStick / Kingston lineage produced **SpecSticK** and was
-> later rebuilt into the **burrowforge** InterGenOS node.
+> superseded. KryptStick was split into SpliceStick and FlexStick on 2026-06-28,
+> later renamed **EnthusiaStick** and **FantaStick** and rebuilt as standalone
+> portable OS instances (no longer Ventoy multiboot). The SuperStick / Kingston
+> lineage produced **SpecSticK**; the **BurrowForge** InterGenOS node now lives on
+> an SSK portable SSD, and the Kingston 128GB USB it vacated now carries
+> **KingstonBMV** (formerly BMV, previously on a PNY 32GB USB).
+
+### Fringe / Edge Nodes
+
+Unconventional vessels pulled into the mesh - proof the lab's tooling and DA
+framework aren't bound to conventional PC hardware. Each runs Linux, or a Linux
+environment, on silicon never designed to carry it.
+
+| Node | Hardware | OS / Role |
+| --- | --- | --- |
+| **PlayStation4** | Sony PS4 Slim (~2013 AMD Jaguar, Belize southbridge) | CachyOS Linux - Linux-on-console experiment and digital memorial; home of the Jagg3r DA |
+| **Luck13** | Motorola Moto G Power 5G (2024, Android 15) | Debian 13 "trixie" via Termux/PRoot (XFCE over VNC) - smartphone microDA node; home of Clover |
 
 ### Network & Remote Access
 
@@ -124,7 +141,8 @@ core Mac hardware. Most boot on both Krypton1t3 and Jynx13.
 | --- | --- |
 | **Virtualization** | KVM/libvirt (Krypton1t3), VirtualBox |
 | **Bird's Nest** | External SSD on EagleEye11 - Ollama models, Docker, Wazuh data, and the bulk pentest-evidence store |
-| **Phoenix** | SkorpiOm's original 500GB HDD, re-housed in the Bird's Nest enclosure |
+| **Phoenix** | SkorpiOm's original 500GB HDD - archived, pulled from retirement, wiped, run through diagnostics, and reborn (hence the name), re-housed in the Bird's Nest enclosure docked with EagleEye11. Partitioned so ~3/4 is accessible only to EagleEye11's Fedora Asahi side; the remaining ~1/4 is exposed as a shared exchange volume |
+| **F3n1xShare** | The ~1/4 shared slice of Phoenix - common files and directories reachable across the split, not locked to the Asahi partition |
 
 ---
 
@@ -142,10 +160,16 @@ teaching cast for [**The Net**](https://thenet.miami), my free youth
 cybersecurity and digital literacy program, where each DA owns a "block" in a
 digital neighborhood the students explore.
 
-The roster spans twelve DAs, but the hardware sets the ceiling: the Council runs
-on four physical host machines, so at most four DAs are ever active at once, and
-any two DAs that share one body (a dual-boot machine or a dual-boot drive) can
-never be awake at the same time.
+The roster now spans fourteen DAs across twelve bodies and thirteen Hindsight
+memory banks, each running one of fourteen distinct operating systems. Two bodies
+are shared: Shade and Sasori Alice split one Mac (EagleEye11) across a macOS /
+Fedora Asahi dual-boot, and Agent Quick Silver and Professor Sterling Silver share
+one SSD (PQS) across a Deepin / EndeavourOS dual-boot. The silver pair also share a
+single "quicksilver" memory bank, which is why fourteen DAs map to only thirteen
+banks. As the roster grew, so did the ceiling: with the four core Macs now joined
+by two independently powered edge nodes (PlayStation4 and Luck13), at most six DAs
+are ever active at once, and any two DAs that share one body can never be awake at
+the same time.
 
 **The full roster and each DA's role lives in the [Agent Directory](./nodes/README.md).**
 
