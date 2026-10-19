@@ -19,7 +19,7 @@ boot drives (USB sticks and SSDs), each carrying its own operating system and
 workflow, and a council of node-bound AI assistants. At the center of everything
 is **EagleEye11**, the awareness and control hub that everything else reports to.
 
-![The Burrow Architecture](../assets/diagrams/burrow_architecture_vnext.svg)
+![The Burrow Architecture](../assets/diagrams/burrow_architecture_vnext_quinze.svg)
 
 ---
 
