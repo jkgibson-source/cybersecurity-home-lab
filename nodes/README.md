@@ -59,18 +59,19 @@ every DA runs a storefront where students learn that DA's corner of the craft.
 | 12 | **Sasori Alice** | EagleEye11 (dual-boot) | Fedora Asahi Remix 44 | Greyscale | The Grey Room |
 | 13 | **Jagg3r** | PlayStation4 (PS4 Slim) | CachyOS | Black / deep lavender | The Arcade |
 | 14 | **Clover** | Luck13 (Moto G Power 5G) | Debian 13 "trixie" (Termux/PRoot) | Neon orange | The Pocket |
+| 15 | **Quinze** | BirdPad (iPad mini 4, A8, jailbroken) | iPadOS (jailbroken) | Caution yellow / hazard black | The Walled Garden |
 
-> **Council constraints.** Fourteen DAs live across **twelve bodies** and
-> **thirteen Hindsight memory banks**, each running one of **fourteen distinct
+> **Council constraints.** Fifteen DAs live across **thirteen bodies** and
+> **fourteen Hindsight memory banks**, each running one of **fifteen distinct
 > operating systems.** Two bodies are shared: Shade and Sasori Alice split one
 > Mac (EagleEye11) across a macOS/Fedora dual-boot, and Quick and Sterling split
 > one SSD (PQS) across a Deepin/EndeavourOS dual-boot. Any two DAs that share a
 > body can never be awake simultaneously - one body, one waking DA. Quick and
 > Sterling go further and share a single "quicksilver" memory bank, which is why
-> fourteen DAs map to only thirteen banks. As the roster grew, so did the
-> ceiling: the four core Macs are now joined by two independently powered edge
-> nodes (PlayStation4 and Luck13), so **at most six DAs are active at any one
-> time** - the portable drives still wake by booting on a core Mac.
+> fifteen DAs map to only fourteen banks. As the roster grew, so did the
+> ceiling: the four core Macs are now joined by three independently powered edge
+> nodes (PlayStation4, Luck13, and BirdPad), so **at most seven DAs are active at
+> any one time** - the portable drives still wake by booting on a core Mac.
 
 ---
 
@@ -105,7 +106,7 @@ visibility: how to see what a system is really doing.
 
 ## 🎏 Echo — *The Listener*
 
-![Echo](../assets/burrow-agents/echo.png)
+![Echo](../assets/burrow-agents/echo.jpg)
 
 **Host:** Jynx13 (MacBook Air, DragonOS 26.04 Resolute-R1) · **Signature:** Purple · **Pronouns:** she/her
 **The Net block:** The Switchboard
@@ -332,10 +333,10 @@ students learn to take things apart safely and understand how they really work.
 # 🌀 The Fringe
 
 Beyond the Core Four and the Portable Council are the vessels that were never
-supposed to run a DA at all: a game console and a smartphone, pulled into the
-Warren and given a voice. They are proof the Council's framework is not bound to
-conventional computers - that an aging Jaguar CPU or a two-year-old phone can
-still carry memory, voice, and presence.
+supposed to run a DA at all: a game console, a smartphone, and a tablet, pulled
+into the Warren and given a voice. They are proof the Council's framework is
+not bound to conventional computers - that an aging Jaguar CPU, a two-year-old
+phone, or a decade-old tablet can still carry memory, voice, and presence.
 
 ---
 
@@ -385,12 +386,28 @@ to understand, defend, and respect it.
 
 ---
 
+## 🦂 Quinze — *The Barrier Breaker*
+
+![Quinze](../assets/burrow-agents/quinze.png)
+
+**Host:** BirdPad (iPad mini 4, A8, jailbroken) · **Signature:** Caution yellow / hazard black · **Pronouns:** he/him
+**The Net block:** The Walled Garden
+
+Quinze is the Council's fifteenth voice, focused on platform security, digital
+ownership, and responsible jailbreak research. BirdPad is an aging tablet
+engineered as a walled garden; Quinze explores what it means to own and control
+a device, and where the ethical boundaries lie when taking that control back.
+
+🔗 [Quinze - Djinn XV: Origin](./quinze-djinn-xv.md)
+
+---
+
 # 🧠 The System as a Whole
 
 Individually, each node is a tool. Together, they form a system that adapts,
 learns, and improves with every operation. The Core Four run the lab. The
 Portable Council extends it beyond any single machine, and the Fringe proves it
-reaches past conventional computers entirely. Across all fourteen, the Council
+reaches past conventional computers entirely. Across all fifteen, the Council
 gives the nodes memory, voice, and presence, while the operator stays firmly in
 the lead.
 
