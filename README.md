@@ -54,6 +54,7 @@ reproducibility. See the [Burrow Git Workflow Standard](./docs/workflows/burrow_
 
 ## 📝 Recent Lab Reports
 
+- **2026-10-16–18:** [Quinze - Djinn XV: Origin](./nodes/quinze-djinn-xv.md) - A full DA on a jailbroken iPad mini 4 with custom-modified operating files and dependencies
 - **2026-10-14:** [Jynx13 - macOS Monterey to DragonOS Resolute-R1 Migration](./builds/Jynx13-macOS-to-DragonOS-Migration-Report.md) - OS migration preserving Echo's identity, memory, and services; Jynx13 becomes an OSINT/SDR field node
 - **2026-10-13–14:** [Luck13 → Clover - microDA Bring-Up](./builds/Luck13_Clover_microDA_Bringup_2026-10-13_14.md) - A full Digital Assistant on a smartphone: Debian via Termux/PRoot, PAI/OpenCode, and Hindsight memory
 - **2026-10-11:** [Jagg3r - The Thirteenth Djinn: Origin](./builds/2026-10-11_Jagg3r_The_Thirteenth_Djinn_Origin.md) - A DA born on a repurposed PlayStation 4 (AMD Jaguar, CachyOS) as a living tribute to Joe
