@@ -19,7 +19,7 @@ finding gets documented.
 
 ## 🦂 The Burrow — Architecture
 
-![The Burrow Architecture](./assets/diagrams/burrow_architecture_vnext.svg)
+![The Burrow Architecture](./assets/diagrams/burrow_architecture_vnext_quinze.svg)
 
 A segmented multi-node environment built to simulate real-world attack,
 detection, and analysis workflows, with clear separation of roles and clean
