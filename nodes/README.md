@@ -328,6 +328,8 @@ Her domain is malware analysis, reverse engineering, and cross-platform
 exploration, including Linux on ARM64. In The Net, The Grey Room is where
 students learn to take things apart safely and understand how they really work.
 
+🔗 [Sasori: Fedora Asahi Remix 44](../builds/journal_2026-09-15_Fedora-Asahi-Remix.md)
+
 ---
 
 # 🌀 The Fringe
