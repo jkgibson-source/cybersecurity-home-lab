@@ -176,14 +176,14 @@ teaching cast for [**The Net**](https://thenet.miami), my free youth
 cybersecurity and digital literacy program, where each DA owns a "block" in a
 digital neighborhood the students explore.
 
-The roster now spans fourteen DAs across twelve bodies and thirteen Hindsight
-memory banks, each running one of fourteen distinct operating systems. Two bodies
+The roster now spans fifteen DAs across thirteen bodies and fourteen Hindsight
+memory banks, each running one of fifteen distinct operating systems. Two bodies
 are shared: Shade and Sasori Alice split one Mac (EagleEye11) across a macOS /
 Fedora Asahi dual-boot, and Agent Quick Silver and Professor Sterling Silver share
 one SSD (PQS) across a Deepin / EndeavourOS dual-boot. The silver pair also share a
-single "quicksilver" memory bank, which is why fourteen DAs map to only thirteen
+single "quicksilver" memory bank, which is why fifteen DAs map to only fourteen
 banks. As the roster grew, so did the ceiling: with the four core Macs now joined
-by two independently powered edge nodes (PlayStation4 and Luck13), at most six DAs
+by two independently powered edge nodes (PlayStation4 and Luck13), at most seven DAs
 are ever active at once, and any two DAs that share one body can never be awake at
 the same time.
 
