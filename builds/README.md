@@ -8,6 +8,7 @@ This folder contains build reports and session logs documenting hardware, softwa
 
 | Build | Description |
 |---|---|
+| [Scorpion on Glass — TR1K3Y Pixel Animation](2026-11-04_scorpion-on-glass.html) | Illustrated build story of the LILYGO T-Dongle-S3 LCD scorpion sprite and firmware extension |
 | [Operation FatBoy Flashing](2026-11-02_operation-fatboy-flashing.md) | PS3 Fat NOR patch and Evilnat 4.90 CEX installation record, with HDD preservation cautions |
 | [Bugsy Network Baseline](2026-11-02_bugsy-baseline-report.md) | Pre/post network-bridge comparison with probe-level results and uncertainty limits |
 | [Apple TV Security Baseline](2026-10-23_apple-tv-baseline-public.md) | Public-safe jailbreak and SSH posture summary with identifying access details omitted |
