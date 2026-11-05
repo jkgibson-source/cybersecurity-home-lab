@@ -54,6 +54,8 @@ reproducibility. See the [Burrow Git Workflow Standard](./docs/workflows/burrow_
 
 ## 📝 Recent Lab Reports
 
+- **2026-11-04:** [Scorpion on Glass — TR1K3Y Pixel Animation](./builds/2026-11-04_scorpion-on-glass.html) - Illustrated build story of a shaded, animated LCD sprite and firmware extension
+- **2026-11-03:** [BurrowMCP Session 23 — Inventory Night](./tools/BurrowMCP/docs/BurrowMCP-23-Session23.md) - Expanded node inventory and Android health checks; Clover's Termux migration
 - **2026-11-02:** [Operation FatBoy Flashing](./builds/2026-11-02_operation-fatboy-flashing.md) - PS3 Fat NOR patch and Evilnat 4.90 CEX installation record, with preservation follow-up
 - **2026-11-02:** [Bugsy Network Baseline](./builds/2026-11-02_bugsy-baseline-report.md) - Pre/post network-bridge measurements and statistical limitations
 - **2026-10-23:** [Apple TV Security Baseline](./builds/2026-10-23_apple-tv-baseline-public.md) - Public-safe jailbreak and SSH posture summary; identifying details omitted
